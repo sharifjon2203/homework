@@ -1,54 +1,117 @@
-// greet("Bilolbek");
+// import { readFile } from "./fs.js";
 
+// const add = (a, b) => a + b;
+// const minus = (a, b) => a - b;
 /*
-function greet() {
-	console.log(`Salom ${name}`);
+function calculate(x, y, callback) {
+	const result = callback(x, y);
+	if (x > 0 && y > 0) {
+		console.log("result ", result);
+
+		return result;
+	}
 }
 
-greet("Umar", "Ali", "Usmon");
+const result = calculate(10, 3, add);
+
+const result3 = calculate(20, 10, minus);
+console.log("resut2 ", result);
+console.log("result3 ", result3);
+const zero = 1;
+const nol = 0;
+if (zero > nol) {
+	var name = "ISM";
+}
+
+console.log(name);
 */
 
-// greet("Diyorbek");
+/*
+function counter() {
+	let count = 1000;
 
-// console.log(name);
-// var name = "ali";
+	function increment(newCount) {
+		count += newCount;
+	}
+	function dicrement(newCount) {
+		count -= newCount;
+	}
 
-// pow(5);
+	function getCount() {
+		return count;
+	}
 
-// var pow = function (number) {
-// 	console.log(number * number);
-// };
+	return {
+		dicrement,
+		increment,
+		getCount,
+	};
+}
 
-// pow(5);
-// let a = 11;
-// (() => {
-// 	console.log("SALOM DUNYO!");
-// })();
+const result = counter();
 
-// const pow = (a, b) => {
-// 	return a ** b;
-// };
+result.increment(10);
+result.increment(20);
+result.increment(40);
+result.increment(4);
 
-// const powV2 = (a, b) => a ** b;
+console.log(result.getCount());
 
-// const squer = (a) => a ** a;
+result.dicrement(1000);
 
-// function squer(a) {
-// 	return a ** a;
-// }
+console.log(result.getCount());
 
-// const squer = function (a) {
-// 	return a ** a;
-// };
+console.log(result);
 
-// const result = pow(2, 3);
+*/
 
-// console.log(result);
+// const add = (a) => (b) => (c) => a + b + c;
+// add(1)(2)(3);
 
-// const result2 = pow(2, 3);
+// const a = [1, 2, 3, 4, 5];
 
-// console.log(result2);
+// const b = [11, 22, 33, 44];
 
-// const result3 = squer(3);
+// const c = [...a, ...b];
 
-// console.log(result3);
+// console.log(c);
+
+function calc(...arr) {
+	let total = 0;
+	for (let i = 0; i < arr.length; i++) {
+		const element = arr[i];
+
+		total += element;
+	}
+	console.log(total);
+}
+
+calc(
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	99,
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	99,
+	1,
+	2,
+	3,
+	4,
+	5,
+	6,
+	7,
+	8,
+	99,
+);

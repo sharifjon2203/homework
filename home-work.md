@@ -1,310 +1,149 @@
-# HOME WORK
+# Home work
 
-1. 
-> Funksiya yarating u array olsin va arrayling birinchi elementini( 0 indexda turganini ) qaytarsin
-### Examples
+Quyida o‘quvchilarga topshiriq (“requirements”) ko‘rinishida shartlarni ketma-ket sanab o‘tamiz. Bu shartlarni bajarish orqali ular “tovuqli” va “qazili” pitsa turlarini ham qo‘shib, callback funksiyadan foydalangan holda pitsa buyurtma qilish dasturini yaratishlari kerak.
 
-```js
-getFirstValue([1, 2, 3]) ➞ 1
+---
 
-getFirstValue([80, 5, 100]) ➞ 80
+1. **Ma’lumotlar strukturasini tayyorlash**  
+   - Bitta massiv (`pizzaOrders`) yarating.  
+   - Ushbu massivda har bir pitsa obyekt (`{ id, type, size }`) shaklida saqlansin.  
+   - `type` sifatida “pishloqli”, “pishloqsiz”, “tovuqli” yoki “qazili” qiymatlaridan foydalaning.  
+   - `size` sifatida esa “small”, “medium” yoki “large” qiymatlaridan foydalaning.  
+   - Kamida 4 ta turli pitsa buyurtmasi yarating (masalan, `id:1, type:'pishloqli', size:'large'`, `id:2, type:'tovuqli', size:'medium'`, va hokazo).
 
-getFirstValue([-500, 0, 50]) ➞ -500
-```
+2. **Narx hisoblash funksiyasi (`calculatePrice`)**  
+   - Argument sifatida bitta pitsa obyektini (`order`) qabul qilsin.  
+   - Asosiy narxni, masalan, 10000 so‘m deb oling.  
+   - `type`ga qarab qo‘shimcha narxlarni qo‘shing:  
+     - “pishloqli” → +5000 so‘m  
+     - “pishloqsiz” → +0 so‘m  
+     - “tovuqli” → +7000 so‘m (yoki o‘zingiz xohlagan miqdorda)  
+     - “qazili” → +10000 so‘m (yoki o‘zingiz xohlagan miqdorda)  
+   - `size`ga qarab ham qo‘shimcha narxlarni qo‘shing:  
+     - “small” → +1000 so‘m  
+     - “medium” → +2000 so‘m  
+     - “large” → +3000 so‘m  
+   - Yakuniy hisoblangan qiymatni qaytaring (return).
 
-2. 
-> Function yarating array turidagi paramert olsin va faqat arrayning just qiymatlarni yig'ib qaytarsin.
+3. **Callback funksiyasi (`pizzaReadyCallback`)**  
+   - Argument sifatida pitsa obyektini (`order`) va yakuniy narxni (`totalPrice`) qabul qilsin.  
+   - Konsolga quyidagicha xabar chiqarsin:  
+     ```
+     Pitsa #ID (TYPE, SIZE) tayyor! Narxi: TOTALPRICE so'm
+     ```  
+     (masalan: `Pitsa #1 (pishloqli, large) tayyor! Narxi: 18000 so'm`)
 
-```js
-getOddValue([1, 2, 3,6]) ➞ [2,6]
-```
+4. **Asosiy buyurtma funksiyasi (`orderPizza`)**  
+   - Argument sifatida pitsa obyektini (`order`) va callback funksiyasini qabul qilsin.  
+   - Konsolga “Pitsa #ID (TYPE, SIZE) buyurtma qilindi. Pishirish boshlandi...” kabi xabar chiqarsin.  
+   - `setTimeout` yordamida 2 soniya kutgach:  
+     - `calculatePrice(order)`ni chaqiring va olingan narxni saqlang.  
+     - Saqlangan narx va pitsa obyektini callback funksiyasiga (ya’ni `pizzaReadyCallback`) argument sifatida uzating.  
 
-3. 
-> `incrementItems` degan Function yarationg u array ([]) turidagi qiymat olsin va har bir elementga 1 qiymat qo'shib qaytarsin
+5. **Massivni qayta ishlash**  
+   - O‘zingizning `pizzaOrders` massivining har bir elementini (`order`) `orderPizza` funksiyasiga `forEach` yordamida uzating:  
+     ```js
+     pizzaOrders.forEach(function(order) {
+       orderPizza(order, pizzaReadyCallback);
+     });
+     ```  
 
-```js
-incrementItems([0, 1, 2, 3]) ➞ [1, 2, 3, 4]
+6. **Asinxron natijani tekshirish**  
+   - Dastur ishga tushgandan so‘ng konsolda avval buyurtma berilgani, so‘ng 2 soniyadan keyin har bir pitsa “tayyor” bo‘lgani haqida xabarlar chiqishini tekshiring.  
 
-incrementItems([2, 4, 6, 8]) ➞ [3, 5, 7, 9]
-```
+7. **Kod tozaligi va dokumentatsiya**  
+   - Har bir funksiyani izoh (`// koment`) bilan tushuntirib boring.  
+   - Kodni qismlarga ajratib, oson o‘qiladigan shaklda yozing.
 
-4. 
-> Function yarating u array qabul qilsin va arrayning ohirgi qiymatini qaytarsin!.
+8. **Qo‘shimcha talab (ixtiyoriy)**  
+   - Xohlovchilar narxlarni o‘zlari xohlagancha o‘zgartirishi yoki “type” va “size”dan tashqari qo‘shimcha xususiyatlar (`extraSauce`, `doubleCheese`, va hokazo) kiritib, narxni yanada aniqroq hisoblashlari mumkin.  
+   - Xohlovchilar pishirish vaqtini har xil pitsa uchun turlicha belgilashi (masalan, `qazili` = 3000 ms, `tovuqli` = 2500 ms) va shunga mos ravishda `setTimeout` chaqirishi mumkin.
 
-```js
-getLastItem([1, 2, 3]) ➞ 3
-```
+---
 
-5. 
-> Function yarating u array va son oldin, bizga sonning indexni qaytarsin agarda u bo'lsa yoki u yo'q bo'lsa -1 qaytarsin
-
-```js
-search([1, 5, 3], 5) ➞ 1
-search([1, 2, 3], 4) ➞ -1
-```
-
-6. 
-> Function yarating u array qabul qilsin va arraylarning ichidagi qiymatlarning yig'indisini qaytarsin
-
-```js
-sumArray([1, 2, 3, 4, 5]) ➞ 15
-```
-
-7. 
-> Function yarating u number qabul qilsin va object qaytarsin 
-	Ilm uchun 50% qismini ajratsin
->   Harajatlar uchun 30% qismini ajrtsin
->   kelajak uchun 20% qismini ajratsin
-
-```js
-fiftyThirtyTwenty(10000) ➞ { "ilm": 5000, "harajat": 3000, "kelajak": 2000 }
-```
-
-8. 
-> Function yarating u (num1, num2, array) qiymatlarini qabul qilsin va num1 bilan num2 oralig'idagi arrayning elementlarni qaytarsin.
-
-```js
-arrBetween(3, 8, [1, 5, 95, 0, 4, 7]) ➞ [5, 4, 7]
-```
-
-9. 
-> Function yarating u **array** va **num** olsin ==(array, num)== va arraning ichida num bo'lsa **true** bo'lmasa **false** qiymat qaytarsin
-```js
-check([1, 2, 3, 4, 5], 3) ➞ true
-
-check([1, 1, 2, 1, 1], 3) ➞ false
-```
-
-10. 
-> Function yarating u **array** qabul qilsin va **array** ning elementlarni **type**ni  qaytarsin
-
-```js
-arrayValuesTypes([1, 2, "salom") ➞ ["number", "number", "string", "object"]
-```
-11.
-> Berilgan massivdagi juft va toq indekslardagi elementlarning yig'indisini alohida-alohida hisoblang.
-
-```js
-💡 function evenOddIndexSums(arr) {
-// Code here
-}
-
-console.log(evenOddIndexSums([1, 2, 3, 4, 5, 6])); // {evenIndexSum: 9, oddIndexSum: 12}
-```
-12.
->Berilgan qator ichidagi barcha bo'shliqlarni olib tashlang.
-
-```js
-function removeSpaces(str) {
-    // Code here
-}
-
-console.log(removeSpaces("Hello World! How are you?")); // "HelloWorld!Howareyou?"
-```
-
-## **Leetcode** - Must have!
-13.
-- [599. Minimum Index Sum of Two Lists
-](https://leetcode.com/problems/minimum-index-sum-of-two-lists/description/)
-14.
-- [819. Most Common Word
-](https://leetcode.com/problems/most-common-word/description/)
-15.
-- [2418. Sort the People
-](https://leetcode.com/problems/sort-the-people/description/)
-
-
+**Xulosa**: O‘quvchilar shu bosqichlarni bajarsalar, “pitsa buyurtma qilish”ni asinxron callback funksiyalari orqali ifodalovchi, turli `type` va `size`larga qarab narx belgilanadigan dasturni to‘liq yaratib olishadi. Bu dastur JavaScript’dagi **callback** mantig‘ini, massivni (`array`) qayta ishlash, obyektlar (`object`) bilan ishlash va **setTimeout** funksiyasini qo‘llash bo‘yicha yaxshi tajriba bo‘ladi.
 
 ----
-# BONUS - O'z ustida ishlamoqchi bo'lganlar uchun....
 
-IXTIYORIY
-
-
-
-
-# 1. Array of Multiples
-
-### 1. Create a function that takes two numbers as arguments (`num`, `length`) and returns an array of multiples of `num` until the array length reaches `length`.
-
->  Function yarating va u 2 ta number typedagi paramert olsin (num, length) va bizga length qiymati qancha bo'lsa shunga array qaytarsin birinchi bergan arrayimizga o'zini qayta qayta qo'shib 
-
-
-### Examples
-==RECURSION BILAN QILINGLAR AHLI ODAMLAR==
-```js
-arrayOfMultiples(7)(5) ➞ [7, 14, 21, 28, 35]
-
-arrayOfMultiples(12, 10) ➞ [12, 24, 36, 48, 60, 72, 84, 96, 108, 120]
-
-arrayOfMultiples(17, 6) ➞ [17, 34, 51, 68, 85, 102]
-```
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 2. Reverse Words in a String
-
-Given an input string, reverse the string word by word, the first word will be the last, and so on.
-
-> Function yarating u **string**  typedagi parametrt qabul qilsin va uni teskarisiga qaytarib bersin.
-
-> Agarda son berilsa sonlarni ham tekarisiga qaytaradigan bo'lsa zo'r bo'lardi
-
-### Examples
-
-```js
-reverseWords(" the sky is blue") ➞ "blue is sky the"
-
-reverseWords("hello   world!  ") ➞ "world! hello"
-
-reverseWords("a good example") ➞ "example good a"
-```
-
-# 3.  Burglary Series (01): Calculate Total Losses
-
-You just returned home to find your mansion has been robbed! Given an **object** of the stolen items, return the total amount of the burglary (number). If nothing was robbed, return the string `"Lucky you!"`.
-
-> Function yarating u **object** typedagi ma'lumot qabu qisin va objecting parametrlarining qiymatlarni yig'indisini qaytarsin!. Agarda object bo'sh bo'lsa ==Lucky you== ni qaytarsin
-### Examples 
-
-```js
-const stolenItems = {
-  tv: 30,
-  skate: 20,
-  stereo: 50,
-} ➞ 100
-
-const stolenItems = {
-  painting: 20000,
-} ➞ 20000
-
-const stolenItems = {} ➞ "Lucky you!"
-```
-
-# 4. Remove the Letters ABC
-
-Create a function that will remove the letters "a", "b" and "c" from the given string and return the modified version. If the given string does not contain "a", "b", or "c", return `null`.
-
-> Function yarating u **String** paramert qabul qilsin va stringnig ichidagi ==a==, ==b== va ==c== larni o'chirib o'rninga ==" "== bo'sh joy qo'ysin. Agarda a,b,c lar yo'q bo'lsa ==null== ni qaytarsin
-### Examples
-
-```js
-removeABC("This might be a bit hard") ➞ "This might e  it hrd"
-
-removeABC("hello world!") ➞ null
-
-removeABC("") ➞ null
-```
-
-# 5. Capitalize the Names
-
-Create a function that takes an array of names and returns an array where only the first letter of each name is capitalized.
-
-> Function yarating u **Array** typedagi qiymatni qabul qilsin va arraydagi hamma elementlarning birinchi harifini katta harfga o'zgartirsin!.
-### Examples
-
-```js
-capMe(["mavis", "senaida", "letty"]) ➞ ["Mavis", "Senaida", "Letty"]
-
-capMe(["samuel", "MABELLE", "letitia", "meridith"]) ➞ ["Samuel", "Mabelle", "Letitia", "Meridith"]
-
-capMe(["Slyvia", "Kristal", "Sharilyn", "Calista"]) ➞ ["Slyvia", "Kristal", "Sharilyn", "Calista"]
-```
-
-
-# 6.  Find Unique Positive Numbers from Array
-
-Write a function that takes an array and returns a new array with unique positive (more than 0) numbers
-
-> Function yarating u array qabul qilsin u bitta arrayda faqat 1 marotaba qaytarilgan arraylarni qaytarish kerak 
-### Examples
-
-```
-uniqueArr([-5, 1, -7, -5, -2, 3, 3, -5, -1, -1]) ➞ [1, 3]
-
-uniqueArr([3, -3, -3, 5, 5, -6, -2, -4, -1, 3]) ➞ [3, 5]
-
-uniqueArr([10, 6, -12, 13, 5, 5, 13, 6, 5]) ➞ [10, 6, 13, 5]
-```
-
-# 7. Double Factorial
-
-Create a function that takes a number `num` and returns its **double factorial**.
-
-> Function yarating u ==number== typedagi paramerater qabul qilsin uni faqat ==toq numberlar==ning ko'paytmasini recursion bilan qiling
-### Examples
-
-```
-doubleFactorial(0) ➞ 1
-
-doubleFactorial(2) ➞ 2
-
-doubleFactorial(9) ➞ 945
-// 9*7*5*3*1 = 945
-
-doubleFactorial(14) ➞ 645120
-```
-
-# 8.  Multiplying Numbers in a String
-
-Given a string of numbers separated by a _comma and space_, return the product of the numbers.
-
-> Function yarating u ==String== typedagi numberlar qabul qilsin uni har birini bir biriga ko'paytmasini qiymatini toping!.
-### Examples
-
-```
-multiplyNums("2, 3") ➞ 6
-
-multiplyNums("1, 2, 3, 4") ➞ 24
-
-multiplyNums("54, 75, 453, 0") ➞ 0
-
-multiplyNums("10, -2") ➞ -20
-```
-
-# 9.  Reversible Inclusive List Ranges
-
-Write a function that, given the `start` and `end` values, returns an array containing all the numbers **inclusive** to that range. See examples below.
-
-
-> Function yarating u ==Number== typedagi 2ta parametr qabul qilsin va shu sonlar oralig'idagi sonlar bilan o'sish tartibida arrayga joylab qaytaring!.
-### Examples
-
-```
-reversibleInclusiveList(1, 5) ➞ [1, 2, 3, 4, 5]
-
-reversibleInclusiveList(2, 8) ➞ [2, 3, 4, 5, 6, 7, 8]
-
-reversibleInclusiveList(10, 20) ➞[10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20]
-
-reversibleInclusiveList(24, 17) ➞[24, 23, 22, 21, 20, 19, 18, 17]
-```
-
-
-# 10.  Factorize a Number
-
-Create a function that takes a number as its argument and returns an array of all its factors.
-
-> Function yarating u ==number== typedagi parametr qabul qilsin va o'sha numberga karrali  bo'lgan hamma sonlarni array ichida qaytarsin.
-### Examples
-
-```
-factorize(12) ➞ [1, 2, 3, 4, 6, 12]
-
-factorize(4) ➞ [1, 2, 4]
-
-factorize(15) ➞ [1, 3, 5, 15]
-
-factorize(17) ➞ [1, 17]
-```
+# ***2 Project***
+
+Quyida **“nasiya savdo”** bo‘yicha **texnik qurilmalar** (masalan, MacBook, telefon yoki boshqa gadjet) sotib olish jarayonini o‘quvchilar bajarishi uchun **requirements** shaklida tushuntirib beraman. Bu vazifada oldingi “callback” funksiyasi, `setTimeout`, massiv (array) va obyektlar (object) bilan ishlash amaliyotini davom ettirib, qo‘shimcha ravishda bo‘lib to‘lash mexanizmini ham qo‘llashadi.
+
+---
+
+## Nasiya savdo loyihasi (MacBook misolida) uchun talablar
+
+1. **Ma’lumotlar strukturasini tayyorlash**  
+   - Bitta massiv (`orders`) yarating.  
+   - Ushbu massivda har bir texnik qurilma (obyekt) quyidagi shaklda saqlansin:
+     ```js
+     {
+       id: 1,
+       productName: "MacBook Pro 16-inch",
+       basePrice: 30000000, // masalan, 30 million so‘m
+       payInMonths: 6,      // qancha oyga bo‘lib to‘lash
+       monthlyPayment: 0    // dastlab 0 qilib kiritiladi, keyinchalik hisoblanadi
+     }
+     ```
+   - Hech bo‘lmasa 3-4 xil texnik qurilma obyektlarini massivga qo‘shing. (Masalan, `MacBook Air`, `iPhone`, `Samsung Galaxy`, `Dell XPS`, va hokazo.)
+
+2. **Narxni qayta ishlash funksiyasi (`calculateFinalPrice`)**  
+   - Kiritilgan `basePrice`ni qayta hisoblab, `finalPrice` sifatida qaytaradigan funksiya yozing. Agar qurilma turiga qarab chegirma yoki ustama (foiz) qo‘shmoqchi bo‘lsangiz, shu yerda amalga oshiring:
+     - Masalan, **Apple** brendiga +5% ustama.  
+     - Yoki ma’lum bir modelga chegirma (masalan, eski model bo‘lsa -10%).  
+   - Agar soddalashtirmoqchi bo‘lsangiz, shu qadamni o‘tkazib, to‘g‘ridan-to‘g‘ri `basePrice`ni `finalPrice` sifatida olishingiz ham mumkin.
+
+3. **Bo‘lib to‘lash hisoblash funksiyasi (`calculateInstallments`)**  
+   - Argument sifatida `finalPrice` va `payInMonths`ni qabul qilsin.  
+   - Agar `payInMonths` > 1 bo‘lsa, har oyga to‘lovni toping:
+     \[
+       \text{har oylik to‘lov} = \frac{\text{finalPrice}}{\text{payInMonths}}
+     \]
+     (istalgancha yaxlitlash usulidan foydalaning, masalan, `Math.round`).
+   - Shuningdek, xohlasangiz, bo‘lib to‘lashga qo‘shimcha foiz ham qo‘shib ko‘rishingiz mumkin (masalan, 12 oyga bo‘lib to‘lashda +10% ustama).
+   - Agar `payInMonths` = 1 bo‘lsa, demak to‘liq narx biryo‘la to‘lanadi, `monthlyPayment = finalPrice`.
+
+4. **Callback funksiyasi (`deviceReadyCallback`)**  
+   - Ushbu funksiya “qurilma ombordan keldi” yoki “tayyor bo‘ldi” degan ma’noda, kelgan obyekt (buyurtma ma’lumotlari) bo‘yicha xabar chiqarsin.
+   - Masalan, konsolda quyidagicha xabar chiqaring:
+     ``` 
+     MacBook Pro 16-inch (#1) tayyor bo'ldi! 
+     Agar payInMonths > 1 bo‘lsa: 
+       "Har oy to'lash: MONTHLYPAYMENT so'm, jami: PAYINMONTHS oy" 
+     Aks holda: 
+       "Jami to'lov: FINALPRICE so'm, biryo'la to'lanadi." 
+     ```
+
+5. **Buyurtma funksiyasi (`orderDevice`)**  
+   - Argument sifatida buyurtma obyektini (`order`) va callback funksiyasini (`deviceReadyCallback`) qabul qilsin.  
+   - Boshlanishida “PRODUCTNAME (#ID) buyurtma qilindi. Ombordan yetkazib berilmoqda...” kabi xabar chiqarsin.  
+   - `setTimeout` orqali, masalan, 2 soniya kutib turing (ombordan kelguncha simulyatsiya).  
+   - 2 soniya tugagach:  
+     - `finalPrice = calculateFinalPrice(order.basePrice, ...)` (agar kerak bo‘lsa, brend/modelga qarab).  
+     - `monthlyPayment = calculateInstallments(finalPrice, order.payInMonths)`.  
+     - `order` obyektining `finalPrice` va `monthlyPayment` xususiyatlarini yangilang.  
+     - Yakunda callback funksiyasini (`deviceReadyCallback(order)`) chaqiring.
+
+6. **Massivni qayta ishlash**  
+   - `orders.forEach(order => orderDevice(order, deviceReadyCallback))` shaklida har bir buyurtmani qayta ishlang.  
+   - Shu tariqa, barcha texnik qurilmalar 2 soniyadan keyin “tayyor” bo‘lib, nasiya yoki biryo‘la to‘lov shartlari konsolga chiqadi.
+
+7. **Kodni tozaligi va izohlar**  
+   - Har bir funksiyani alohida-alohida yozing (`calculateFinalPrice`, `calculateInstallments`, `deviceReadyCallback`, `orderDevice`).  
+   - Kodni bosqichma-bosqich tushuntirib, izohlar (`// ...`) qo‘shing.
+
+8. **Qo‘shimcha g‘oyalar (ixtiyoriy)**  
+   - **Turli yetkazib berish vaqti**: brend yoki modelga qarab `setTimeout`ga turli vaqt berish (masalan, MacBook 3 soniya, iPhone 2 soniya, Dell XPS 2.5 soniya).  
+   - **O‘zgaruvchan ustama**: oy soni oshgani sayin ustama ham oshishi.  
+   - **Keshbek yoki bonus ballar**: agar `payInMonths` = 1 bo‘lsa, keshbek berish yoki chegirma qilish.  
+   - **UI ko‘rinish**: agar xohlasangiz, oddiy HTML sahifa orqali foydalanuvchidan ma’lumotlarni kiritib, `prompt` yoki forma yordamida buyurtma parametrlarini qabul qilishingiz mumkin.
+
+---
+
+**Xulosa**: O‘quvchilar ushbu “nasiya savdo (MacBook yoki boshqa qurilmalar)” mini-loyihasini bajarar ekan, bir vaqtning o‘zida bir nechta **JavaScript** konsepsiyalarini mustahkamlab olishadi:
+1. **Callback** funksiyalar (tayyor bo‘lgandan keyin xabar yoki natijani chiqarish).  
+2. **Massiv** va **obyekt**lar ustida ishlash (har bir buyurtmada `id`, `productName`, `payInMonths`, `monthlyPayment`, va hokazo).  
+3. **Asinxron** jarayon (`setTimeout` bilan yetkazib berish vaqtini simulyatsiya qilish).  
+4. **Bo‘lib to‘lash** (nasiya) mexanizmi, ustama yoki chegirmalarni hisoblash.  
+
+Mazkur **requirements** asosida JavaScript kodini yozib, o‘quvchilar dastur ishga tushganda har bir qurilma buyurtmasi qayta ishlanishini, 2 soniyadan so‘ng callback funksiyasi orqali “tayyor bo‘ldi” degan xabarlar chiqishini amaliy ko‘rib chiqishlari mumkin.
