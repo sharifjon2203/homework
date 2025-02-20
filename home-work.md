@@ -142,7 +142,7 @@
 
 ----
 
-  # 11-dars. HOME WORK MASALALAR
+  # HOME WORK MASALALAR
 
   1. Minimum Remove to Make Valid Parentheses
   > Given a string s of `'('` , `')'` and lowercase English characters.
