@@ -1,320 +1,213 @@
-## Lesson 9
+
+# 10-dars. JS massivlar va massiv metodlari (for, for...of, for…in, forEach, map va filter,every va some, reduce va reduceRight, find, sort, …)
+
+
+----
+1. Number Split | Sonni qismga ajratish
+
+> Given a number, return an array containing the two halves of the number. If the number is odd, make the **rightmost number higher**.
+
+> function yarating u number qabul qilsin va uni ikki bo'lakga bo'lsin shu bo'laklarni bir biriga qo'shganda yi'g'indi berilgan number bilan bir hil bo'lsin.
+> Agarda raqamlar juftva toqga ajrasa kattasi o'ng tomonda kelsin
+
+### Examples
+
+```js
+numberSplit(4) ➞ [2, 2]
+
+numberSplit(10) ➞ [5, 5]
+
+numberSplit(11) ➞ [5, 6]
+
+numberSplit(-9) ➞ [-5, -4]
+```
+
+
+----
+2. Sum of Cubes
+
+
+> Create a function that takes in an array of numbers and returns the sum of its cubes.
+
+> Function yarating u Array qiymati qabul qilsin va arrayning har bir elementini cublarini yig'indisini qaytarsin!.
+
+
+### Examples
+
+```js
+sumOfCubes([1, 5, 9]) ➞ 855
+// Since 1^3 + 5^3 + 9^3 = 1 + 125 + 729 = 855
+
+sumOfCubes([3, 4, 5]) ➞ 216
+
+sumOfCubes([2]) ➞ 8
+
+sumOfCubes([]) ➞ 0
+```
+
+----
+3.  Find the Smallest and Biggest Numbers
+
+Create a function that takes an array of numbers and return both the minimum and maximum numbers, in that order.
+
+> Function yarating u Array ([]) qabul qilsin. function  eng kichik va eng katta qiymatini array ichida qaytarsin. [kichik, katta]
+### Examples
+
+```js
+minMax([1, 2, 3, 4, 5]) ➞ [1, 5]
+
+minMax([2334454, 5]) ➞ [5, 2334454]
+```
+
+----
+4. Birinchi toq sonni topish
+
+> Function yarating u Array ([]) qabul qilsin. Birinchi uchragan toq sonni qaytaradigan algorithm yozing!
+
+> [! note]
+>  - 2 ga bo'lganda qoldiq qolsa u toq son!
+
+```js
+	findPrimeNumber([4, 12, 42, 9,12, 3]) ➞ 9
+	findPrimeNumber([123, 42, 93, 21, 11]) ➞ 123
+```
 
 ---
 
-## **Loyiha Nomi: Kontakt/Telefon Kitobi (Phone Book)**
+5.
+> Function yarating u array qabul qilsin  ichida ikkita element bo'ladi holos [num1, num2]. function num1* num2 = qiymatini to'paytma belgisidan foydalanmasdan chiqaradigan algorithm yozing!
 
+==Ko'paytma ishlatmasdan bajaring! ==
 
-### **Loyiha Shartlari:**
-
-#### **1. Komandalarni Ko'rsatish (Display Commands)**
-- **Ta'rif:**
-  - Foydalanuvchi tizim bilan qanday komandalar orqali o'zaro aloqada bo'lishini bilishi uchun mavjud komandalarni chiqarish.
-- **Talablar:**
-  - Dastur ishga tushganda yoki ma'lum bir komandani kiritganda, barcha mavjud komandalar ro'yxatini ko'rsatishi kerak.
-  - Har bir komandani qisqacha tavsiflash.
-- **Mavjud Komandalar:**
-  ```
-  Mavjud komandalar:
-  - add: Yangi kontakt qo'shish
-  - search: Kontaktni qidirish
-  - delete: Kontaktni o'chirish
-  - list: Barcha kontaktlarni ko'rsatish
-  - help: Mavjud komandalarni ko'rsatish
-  - exit: Dasturdan chiqish
-  ```
-
-#### **2. Kontakt Qo'shish (Add Contact)**
-- **Ta'rif:**
-  - Foydalanuvchi ism va telefon raqamini tizimga qo'shishi kerak.
-- **Talablar:**
-  - Foydalanuvchi dan kontaktning ismi va telefon raqami so'ralishi.
-  - Kiritilgan ma'lumotlar to'g'ri formatda ekanligini tekshirish (masalan, telefon raqami faqat raqamlardan iborat bo'lishi).
-  - Yangi kontaktni mavjud kontaktlar ro'yxatiga qo'shish.
-- **Misol:**
-  ```
-  Komanda: add
-  Ism: Alice
-  Telefon: 1234567890
-  Kontakt muvaffaqiyatli qo'shildi!
-  ```
-
-#### **3. Kontakt Qidirish (Search Contact)**
-- **Ta'rif:**
-  - Foydalanuvchi berilgan 3 yoki 4 raqam bilan mos keladigan barcha telefon raqamlarini qidirishi va ularning tegishli kontaktlarini ko'rsatishi kerak.
-- **Talablar:**
-  - Foydalanuvchi dan qidiruv uchun qisqa telefon raqami (3 yoki 4 raqam) so'ralishi.
-  - Tizimda kiritilgan raqam bilan mos keladigan barcha kontaktlarni qidirish.
-  - Topilgan kontaktlarni konsolga chiqarish.
-  - Agar hech qanday kontakt topilmasa, mos keladigan kontakt yo'qligini bildirish.
-- **Misol:**
-  ```
-  Komanda: search
-  Qidirilayotgan raqam (3-4 raqam): 123
-  Topilgan kontaktlar:
-  - Alice: 1234567890
-  - Bob: 9123456789
-  ```
-
-#### **4. Kontakt O'chirish (Delete Contact)**
-- **Ta'rif:**
-  - Foydalanuvchi mavjud kontaktni telefon raqami yoki ismi orqali o'chirishi kerak.
-- **Talablar:**
-  - Foydalanuvchi dan o'chiriladigan kontaktning ismi yoki telefon raqami so'ralishi.
-  - Tizimda kiritilgan ma'lumotga mos keladigan kontaktni qidirish.
-  - Topilgan kontaktni ro'yxatdan o'chirish.
-  - Agar hech qanday kontakt topilmasa, mos keladigan kontakt yo'qligini bildirish.
-- **Misol:**
-  ```
-  Komanda: delete
-  O'chiriladigan kontakt ismi yoki raqami: Alice
-  Kontakt muvaffaqiyatli o'chirildi!
-  ```
-
-#### **5. Barcha Kontaktlarni Ko'rsatish (List Contacts)**
-- **Ta'rif:**
-  - Foydalanuvchi barcha mavjud kontaktlarni ko'rishi kerak.
-- **Talablar:**
-  - Mavjud kontaktlar ro'yxatini tartibli tarzda konsolga chiqarish.
-  - Agar telefon kitobi bo'sh bo'lsa, bunga tegishli xabar ko'rsatish.
-- **Misol:**
-  ```
-  Komanda: list
-  Barcha kontaktlar:
-  - Alice: 1234567890
-  - Bob: 0987654321
-  - Charlie: 5551234567
-  ```
-
-#### **6. Mavjud Komandalarni Ko'rsatish (Help)**
-- **Ta'rif:**
-  - Foydalanuvchi `help` komandasi orqali mavjud komandalarni ko'rishi mumkin.
-- **Talablar:**
-  - Mavjud komandalar ro'yxatini va ularning qisqacha tavsifini ko'rsatish.
-- **Misol:**
-  ```
-  Komanda: help
-  Mavjud komandalar:
-  - add: Yangi kontakt qo'shish
-  - search: Kontaktni qidirish
-  - delete: Kontaktni o'chirish
-  - list: Barcha kontaktlarni ko'rsatish
-  - help: Mavjud komandalarni ko'rsatish
-  - exit: Dasturdan chiqish
-  ```
-
-#### **7. Dasturdan Chiqish (Exit)**
-- **Ta'rif:**
-  - Foydalanuvchi `exit` komandasi orqali dasturdan chiqishi mumkin.
-- **Talablar:**
-  - Dasturdan chiqishda foydalanuvchiga xabar ko'rsatish va dastur ish faoliyatini to'xtatish.
-- **Misol:**
-  ```
-  Komanda: exit
-  Dasturdan chiqish...
-  ```
-
-### **Qo'shimcha Talablar:**
-
-- **Ma'lumotlarni Saqlash:**
-  - Kontaktlar ob'ektlar orqali saqlanadi.
-  - Barcha kontaktlar bitta ob'ektda yoki massivda saqlanishi mumkin.
-
-- **Foydalanuvchi Interfeysi:**
-  - Dastur browser (prompt, console) orqali ishlaydi.
-  - Foydalanuvchi qulayligi uchun komandalar va ularning tavsiflari ko'rsatiladi.
-
-- **Xatoliklarni Boshqarish:**
-  - Noto'g'ri komandalarni kiritishda foydalanuvchiga xato haqida ma'lumot berish.
-  - Telefon raqami formatini tekshirish va xato bo'lsa, qayta so'rash.
-  ```
-  +998941234567
-        yoki
-  941234567
-  ```
-
-
------------------
-
-# LEETCODE
-
-1. [412. Fizz Buzz](https://leetcode.com/problems/fizz-buzz/description/)
+```js
+func([3,4]) //=> 12
+func([2,4]) //=> 8
+```
 
 ----
 
-  # HOME WORK MASALALAR
+6.
+> Funtion yarating u array qabul qilsin array ichida so'zlar berilgan.
+> So'zlardan faqat kichik harfli unlilarni qaytaradigan algorithm tuzing!
 
-  1. Minimum Remove to Make Valid Parentheses
-  > Given a string s of `'('` , `')'` and lowercase English characters.
+```js
+returnVowel(["Assalomu alaykum", "salom", "Najot ta'lim"])//=>  ['aaouaau', 'ao', 'aoai]
+returnVowel(["Toshkent"])//=>  ['oe]
+```
 
-  > Your task is to remove the minimum number of parentheses ( `'('` or `')'`, in any positions ) so that the resulting _parentheses string_ is valid and return **any** valid string.
+---
 
-  Formally, a _parentheses string_ is valid if and only if:
+7. Phone Number Formatting
 
-  - It is the empty string, contains only lowercase characters, or
-  - It can be written as `AB` (`A` concatenated with `B`), where `A` and `B` are valid strings, or
-  - It can be written as `(A)`, where `A` is a valid string.
+> Create a function that takes an array of 10 numbers (between 0 and 9) and returns a string of those numbers formatted as a phone number (e.g. **(555) 555-5555**).
 
+> Function yarating u uzunligi 10ga teng bo'lgan array qabul qilsin (0,9 oralig'ida) va telefon number formatida qaytarsin!.
+### Examples
 
-**Example 1:**
+```
+formatPhoneNumber([1, 2, 3, 4, 5, 6, 7, 8, 9, 0]) ➞ "(123) 456-7890"
 
-    **Input:** s = "lee(t(c)o)de)"
-    **Output:** "lee(t(c)o)de"
-    **Explanation:** "lee(t(co)de)" , "lee(t(c)ode)" would also be accepted.
+formatPhoneNumber([5, 1, 9, 5, 5, 5, 4, 4, 6, 8]) ➞ "(519) 555-4468"
 
-  **Example 2:**
+formatPhoneNumber([3, 4, 5, 5, 0, 1, 2, 5, 2, 7]) ➞ "(345) 501-2527"
+```
 
-    **Input:** s = "a)b(c)d"
-    **Output:** "ab(c)d"
+---
 
-  **Example 3:**
+8. Spelling it Out
 
-    **Input:** s = "))(("
-    **Output:** ""
-    **Explanation:** An empty string is also valid.
+Create a function which takes in a word and spells it out, by consecutively adding letters until the full word is completed.
 
+> To'liq so'z tugaguncha ketma-ket harflarni qo'shib, so'zni qabul qiladigan va yozadigan funksiya yarating.
 
-  ----
-  3. Roman to Integer
+### Examples
 
-  >Roman numerals are represented by seven different symbols: `I`, `V`, `X`, `L`, `C`, `D` and `M`.
+```js
+spelling("bee") ➞ ["b", "be", "bee"]
+spelling("happy") ➞ ["h", "ha", "hap", "happ", "happy"]
+spelling("eagerly") ➞ ["e", "ea", "eag", "eage", "eager", "eagerl", "eagerly"]
+```
 
-    **Symbol**       **Value**
-    I             1
-    V             5
-    X             10
-    L             50
-    C             100
-    D             500
-    M             1000
+---
 
-  For example, `2` is written as `II` in Roman numeral, just two ones added together. `12` is written as `XII`, which is simply `X + II`. The number `27` is written as `XXVII`, which is `XX + V + II`.
+9. Chat Room Status
 
-  Roman numerals are usually written largest to smallest from left to right. However, the numeral for four is not `IIII`. Instead, the number four is written as `IV`. Because the one is before the five we subtract it making four. The same principle applies to the number nine, which is written as `IX`. There are six instances where subtraction is used:
+> Write a function that returns the number of users in a chatroom based on the following rules:
 
-  - `I` can be placed before `V` (5) and `X` (10) to make 4 and 9. 
-  - `X` can be placed before `L` (50) and `C` (100) to make 40 and 90. 
-  - `C` can be placed before `D` (500) and `M` (1000) to make 400 and 900.
+>Quyidagi qoidalar asosida chatdagi foydalanuvchilar sonini qaytaruvchi funksiyani yozing.
 
-  Given a roman numeral, convert it to an integer.
-
-  **Example 1:**
-
-    **Input:** s = "III"
-    **Output:** 3
-    **Explanation:** III = 3.
-
-  **Example 2:**
-
-    **Input:** s = "LVIII"
-    **Output:** 58
-    **Explanation:** L = 50, V= 5, III = 3.
-
-  **Example 3:**
-
-    **Input:** s = "MCMXCIV"
-    **Output:** 1994
-    **Explanation:** M = 1000, CM = 900, XC = 90 and IV = 4.
-
-  ----
-
-  4. Contains Duplicate II
-  > Given an integer array `nums` and an integer `k`, return `true` _if there are two **distinct indices**_ `i` _and_ `j` _in the array such that_ `nums[i] == nums[j]` _and_ `abs(i - j) <= k`.
-
-  **Example 1:**
-
-    **Input:** nums = [1,2,3,1], k = 3
-    **Output:** true
-
-  **Example 2:**
-
-    **Input:** nums = [1,0,1,1], k = 1
-    **Output:** true
-
-  **Example 3:**
-
-    **Input:** nums = [1,2,3,1,2,3], k = 2
-    **Output:** false
-
-----
-
-  5. Defis - bu chiziqcha
-
-  S matn yoki so'z beriladi. Sizning vazifangiz ushbu matndagi so'zlarni [defis](https://uz.wikipedia.org/wiki/Defis) bilan ajratishingiz kerak. Matndagi so'z 10 belgidan oshsa so'zning o'rtasiga defis qo'yilgan holda ikkiga bo'lib, agar matndagi so'z 10 belgidan oshsa va belgilar soni toq bo'lib qolsa so'zining ikkinichi tomoniga ortiqcha bo'lib qolgan belgini qo'shib ikkiga bo'lingan holda chop eting.
-
-  ---
-
-  Kiruvchi ma'lumotlar:
-
-   bitta qatorida matn yoki so'z.
-
-  ---
-
-  Chiquvchi ma'lumotlar:
-
-  Chiqish faylida masala javobini chop eting.
-
-  ---
-
-  Misollar
-
-  | #   | input                    | output                   |
-  | --- | ------------------------ | ------------------------ |
-  | 1   | Assalomu Alaykum Javohir | Assalomu-Alaykum-Javohir |
-  | 2   | Robocontest contest      | Roboc-ontest-contest     |
-  | 3   | Bilmasvoyta'tilda        | Bilmasvo-yta'tilda       |
-
-  ----
-  6. ASCII code chiqarish
-  > function bitta paramert olsin u string ko'rinishda yoki son shu kiritilgan parametrini **ascii** codeni chiqarishi kerak
+1. If there is no one, return `"no one online"`.
+2. If there is 1 person, return `"user1 online"`.
+3. If there are 2 people, return `"user1 and user2 online"`.
+4. If there are `n>2` people, return the first two names and add `"and n-2 more online"`.
 
 
+1. Hech kim bo'lmasa, `"onlayn hech kim"`ni qaytaring.
+2. Agar 1 kishi bo'lsa, `"user1 online"`ni qaytaring.
+3. Agar 2 kishi bo'lsa, `"user1 va user2 online"`ni qaytaring.
+4. Agar `n>2 kishi` bo'lsa, dastlabki ikkita ismni qaytaring va `"va yana n-2 onlayn" qo'shing.
 
-  ----
+For example, if there are 5 users, return:
+
+```js
+"user1, user2 and 3 more online"
+```
+
+### Examples
+
+```js
+chatroomStatus([]) ➞ "no one online"
+
+chatroomStatus(["paRIE_to"]) ➞ "paRIE_to online"
+
+chatroomStatus(["s234f", "mailbox2"]) ➞ "s234f and mailbox2 online"
+
+chatroomStatus(["pap_ier44", "townieBOY", "panda321", "motor_bike5", "sandwichmaker833", "violinist91"]) ➞ "pap_ier44, townieBOY and 4 more online"
+```
+---
+
+10.  How Much is True?
+
+
+>Create a function which returns the number of `true` values there are in an array.
+
+> Massivdagi `true` qiymatlar sonini qaytaruvchi funksiya yarating.
+
+### Examples
+
+```js
+countTrue([true, false, false, true, false]) ➞ 2
+
+countTrue([false, false, false, false]) ➞ 0
+
+countTrue([]) ➞ 0
+```
+
+---
 # BONUS
 
-  ## White Spaces Between Lower and Uppercase Letters
+1.
+> Function yarating u array qabul qilsin va tub sonlarni qaytarsin!>
 
-  Write a function that inserts a white space between every instance of a lower character followed immediately by an upper character.
+2.
+> Function yarating u array qabul qilsin va yana bitta function qaytarsin (recursion bu) ichki function number qabul qilsin va birinchi functionda kiritilgan qiymatlarni har birini shu songa ko'paytirib array shaklida qaytarsin
 
-  ### Examples
+### Examples
 
-  ```
-  insertWhitespace("SheWalksToTheBeach") ➞ "She Walks To The Beach"
+```js
+multiply([1, 2, 3])(2) ➞ [2, 4, 6]
 
-  insertWhitespace("MarvinTalksTooMuch") ➞ "Marvin Talks Too Much"
+multiply([4, 6, 5])(10) ➞ [40, 60, 50]
 
-  insertWhitespace("TheGreatestUpsetInHistory") ➞ "The Greatest Upset In History"
-  ```
+multiply([1, 2, 3])(0) ➞ [0, 0, 0]
+```
 
+3.
+>“[0, n]” oralig‘ida “n” farqli raqamlarni o‘z ichiga olgan “raqamlar” massivi berilgan bo‘lsa, _massivda bo‘lmagan oraliqdagi yagona raqamni qaytaring._
 
-  2. Solve the Equation
-
-  > Solve a given equation and return the value of `'x'` in the form of a string `"x=#value"`. The equation contains only `'+'`, `'-'` operation, the variable `'x'` and its coefficient. You should return `"No solution"` if there is no solution for the equation, or `"Infinite solutions"` if there are infinite solutions for the equation.
-
-  If there is exactly one solution for the equation, we ensure that the value of `'x'` is an integer.
-
-  **Example 1:**
-
-    **Input:** equation = "x+5-3+x=6+x-2"
-    **Output:** "x=2"
-
-  **Example 2:**
-
-    **Input:** equation = "x=x"
-    **Output:** "Infinite solutions"
-
-  **Example 3:**
-
-    **Input:** equation = "2x=x"
-    **Output:** "x=0"
-
-  **Constraints:**
-
-  - `3 <= equation.length <= 1000`
-  - `equation` has exactly one `'='`.
-  - `equation` consists of integers with an absolute value in the range `[0, 100]` without any leading zeros, and the variable `'x'`.
+**Input:** nums = [3,0,1]
+**Output:** 2
 
 
-
-  ==DARSDA SHU MASALALARNI O'ZIM TANLAB BIR ODAMGA BERAMAN AGARDA **AI** YOZGAN BO'LSA BAHO 0 QO'YILADI VA QATTIQ CHORA KO'RILADI==
+**Input:** nums = [9,6,4,2,3,5,7,0,1]
+**Output:** 8
