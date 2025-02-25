@@ -1,0 +1,671 @@
+{
+  "data": {
+    "total": 16,
+    "videos": [
+      {
+        "statusHistories": [
+          {
+            "id": 129050,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Mon Feb 24 2025 11:43:35 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 129051,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Mon Feb 24 2025 11:45:09 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 129052,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Mon Feb 24 2025 11:45:50 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 129055,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Mon Feb 24 2025 11:47:41 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 34398,
+        "lesson": {
+          "id": 48723,
+          "name": "Map and Set.",
+          "createdAt": "Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 289779816,
+        "status": 2,
+        "origName": "Screen Recording 2025-02-24 at 16.40.15.mov",
+        "url": "ee42de0c-370a-4691-b416-a5a4110f10e6",
+        "createdAt": "Mon Feb 24 2025 11:43:35 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"ee42de0c-370a-4691-b416-a5a4110f10e6\",\"tags\":[],\"title\":\"Screen Recording 2025-02-24 at 16.40.15.mov\",\"assets\":[{\"id\":\"019537c8-c62c-7e59-8b2c-983dcb358efd\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/ae1b42b0-8f35-49fe-b320-f00f999914b9/mp4/019537c8-c62c-7e59-8b2c-983dcb358efd/019537c7-eb05-76eb-8475-e88a02498501.mp4?expires=1740399461&sign=294b73e9f4f88a6396102e2bfa92a18a\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":34158342,\"created_at\":\"2025-02-24T11:47:40.839528Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0712-af4eb164a2b0/73746f72-016d-312d-070b-af4ec7d55ee7?filename=Screen+Recording+2025-02-24+at+16.40.15.mov-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"019537c8-c47f-7b09-b6ec-ed6daad81de1\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/ae1b42b0-8f35-49fe-b320-f00f999914b9/mp4/019537c8-c47f-7b09-b6ec-ed6daad81de1/019537c7-eb05-76eb-8475-e88a02498501.mp4?expires=1740399461&sign=47947a1043cb44379ba0c1858f84f9f8\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":26329186,\"created_at\":\"2025-02-24T11:47:40.839528Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-070c-af4e28eea61c/73746f72-016d-312d-070b-af4ec7d55ee7?filename=Screen+Recording+2025-02-24+at+16.40.15.mov-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"1b57cab1-2912-4908-93ef-d321fcf23adc\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ae1b42b0-8f35-49fe-b320-f00f999914b9/md/1b57cab1-2912-4908-93ef-d321fcf23adc.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ae1b42b0-8f35-49fe-b320-f00f999914b9/sm/1b57cab1-2912-4908-93ef-d321fcf23adc.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ae1b42b0-8f35-49fe-b320-f00f999914b9/xs/1b57cab1-2912-4908-93ef-d321fcf23adc.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"ae1b42b0-8f35-49fe-b320-f00f999914b9\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ae1b42b0-8f35-49fe-b320-f00f999914b9/1b57cab1-2912-4908-93ef-d321fcf23adc.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":185.76666,\"hls_link\":\"https://kinescope.io/vqrXqU2kzjMa5rLeA8RyhN/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/vqrXqU2kzjMa5rLeA8RyhN\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-24T11:43:35.176342Z\",\"embed_link\":\"https://kinescope.io/embed/vqrXqU2kzjMa5rLeA8RyhN\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 129012,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Mon Feb 24 2025 10:03:07 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 129013,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Mon Feb 24 2025 10:18:48 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 129014,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Mon Feb 24 2025 10:18:48 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 129015,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Mon Feb 24 2025 10:37:49 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 34385,
+        "lesson": {
+          "id": 48723,
+          "name": "Map and Set.",
+          "createdAt": "Mon Feb 24 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": -1122878178,
+        "status": 2,
+        "origName": "Screen Recording 2025-02-24 at 14.07.49.mov",
+        "url": "c7eebaae-d646-4d0f-93b1-27d893a8098a",
+        "createdAt": "Mon Feb 24 2025 10:03:07 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"c7eebaae-d646-4d0f-93b1-27d893a8098a\",\"tags\":[],\"title\":\"Screen Recording 2025-02-24 at 14.07.49.mov\",\"assets\":[{\"id\":\"01953788-c4f6-7e79-945d-0bdd7c688a21\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/aa9c0886-f37f-4bec-a72e-43dba66b2fb0/mp4/01953788-c4f6-7e79-945d-0bdd7c688a21/01953778-da02-752b-ad77-991a3739bdf9.mp4?expires=1740395269&sign=1bcd17970526c1a60806d9bb040dbeb6\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":316043464,\"created_at\":\"2025-02-24T10:37:49.179834Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-070b-af4eb95ebf7e/73746f72-016d-312d-0716-af4eebe760e5?filename=Screen+Recording+2025-02-24+at+14.07.49.mov-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"01953788-b96a-732a-81e0-523b69b96093\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/aa9c0886-f37f-4bec-a72e-43dba66b2fb0/mp4/01953788-b96a-732a-81e0-523b69b96093/01953778-da02-752b-ad77-991a3739bdf9.mp4?expires=1740395269&sign=25aad20d4c6e055e66591c07168e62cb\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":172721650,\"created_at\":\"2025-02-24T10:37:49.179834Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0706-af4e774d0fa4/73746f72-016d-312d-0716-af4eebe760e5?filename=Screen+Recording+2025-02-24+at+14.07.49.mov-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"e7027c0e-6561-4b6f-9a3c-ef4e852b01bd\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/aa9c0886-f37f-4bec-a72e-43dba66b2fb0/md/e7027c0e-6561-4b6f-9a3c-ef4e852b01bd.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/aa9c0886-f37f-4bec-a72e-43dba66b2fb0/sm/e7027c0e-6561-4b6f-9a3c-ef4e852b01bd.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/aa9c0886-f37f-4bec-a72e-43dba66b2fb0/xs/e7027c0e-6561-4b6f-9a3c-ef4e852b01bd.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"aa9c0886-f37f-4bec-a72e-43dba66b2fb0\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/aa9c0886-f37f-4bec-a72e-43dba66b2fb0/e7027c0e-6561-4b6f-9a3c-ef4e852b01bd.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":3292.284,\"hls_link\":\"https://kinescope.io/qFWbTrLfJS3tLS9qEs3Vg1/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/qFWbTrLfJS3tLS9qEs3Vg1\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-24T10:03:07.8074Z\",\"embed_link\":\"https://kinescope.io/embed/qFWbTrLfJS3tLS9qEs3Vg1\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 128531,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Fri Feb 21 2025 12:35:11 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128560,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Fri Feb 21 2025 13:34:47 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128561,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Fri Feb 21 2025 13:34:48 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128564,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Fri Feb 21 2025 13:42:14 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 34261,
+        "lesson": {
+          "id": 48565,
+          "name": "Array metodlariga doir masalalar, va kahoot",
+          "createdAt": "Fri Feb 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 1152418133,
+        "status": 2,
+        "origName": "Screen Recording 2025-02-21 at 14.38.47.mov",
+        "url": "86425d35-f3fe-45a1-969b-d302db078efd",
+        "createdAt": "Fri Feb 21 2025 12:35:11 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"86425d35-f3fe-45a1-969b-d302db078efd\",\"tags\":[],\"title\":\"Screen Recording 2025-02-21 at 14.38.47.mov\",\"assets\":[{\"id\":\"019528be-8c62-731c-b980-1cb0a4b9a2c7\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/ad7cfe90-937a-4b72-925d-de4f57001634/mp4/019528be-8c62-731c-b980-1cb0a4b9a2c7/019528b8-9b24-7cbd-af1e-a669f4c58068.mp4?expires=1740147133&sign=3b20e921d1d57eace045d6841c93cc3b\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":117650328,\"created_at\":\"2025-02-21T13:42:13.492617Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0717-ad4ef8ed9e7e/73746f72-016d-312d-0719-ad4e53bec9b5?filename=Screen+Recording+2025-02-21+at+14.38.47.mov-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"019528be-870a-786e-95b2-d9f079e7add5\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/ad7cfe90-937a-4b72-925d-de4f57001634/mp4/019528be-870a-786e-95b2-d9f079e7add5/019528b8-9b24-7cbd-af1e-a669f4c58068.mp4?expires=1740147133&sign=e4511e6c51355789a393272fb9e2785a\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":76111577,\"created_at\":\"2025-02-21T13:42:13.492617Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-070d-ad4eb618ee2e/73746f72-016d-312d-0719-ad4e53bec9b5?filename=Screen+Recording+2025-02-21+at+14.38.47.mov-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"84c363b0-29c8-4afe-b69a-e2dad094570c\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ad7cfe90-937a-4b72-925d-de4f57001634/md/84c363b0-29c8-4afe-b69a-e2dad094570c.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ad7cfe90-937a-4b72-925d-de4f57001634/sm/84c363b0-29c8-4afe-b69a-e2dad094570c.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ad7cfe90-937a-4b72-925d-de4f57001634/xs/84c363b0-29c8-4afe-b69a-e2dad094570c.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"ad7cfe90-937a-4b72-925d-de4f57001634\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ad7cfe90-937a-4b72-925d-de4f57001634/84c363b0-29c8-4afe-b69a-e2dad094570c.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":1466.917,\"hls_link\":\"https://kinescope.io/hzzqRXRJuue7kkKDCtBLbz/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/hzzqRXRJuue7kkKDCtBLbz\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-21T12:35:11.870829Z\",\"embed_link\":\"https://kinescope.io/embed/hzzqRXRJuue7kkKDCtBLbz\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 128474,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Fri Feb 21 2025 11:12:56 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128480,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Fri Feb 21 2025 11:40:08 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128481,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Fri Feb 21 2025 11:40:09 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128510,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Fri Feb 21 2025 11:59:17 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 34245,
+        "lesson": {
+          "id": 48526,
+          "name": "JavaScript Arrays and Array Methods (for, for...of, for...in, forEach, map, filter, every, some, reduce, reduceRight, find, sort, etc.).",
+          "createdAt": "Fri Feb 21 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": -1261332831,
+        "status": 2,
+        "origName": "Screen Recording 2025-02-21 at 15.15.03.mov",
+        "url": "9c0f86d2-0384-440f-bc28-574fc74a5052",
+        "createdAt": "Fri Feb 21 2025 11:12:56 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"9c0f86d2-0384-440f-bc28-574fc74a5052\",\"tags\":[],\"title\":\"Screen Recording 2025-02-21 at 15.15.03.mov\",\"assets\":[{\"id\":\"01952860-4aaf-7153-be86-eba96da7344a\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/4a08dc2a-336f-4633-9d51-5b73bb1f8c65/mp4/01952860-4aaf-7153-be86-eba96da7344a/01952850-374d-7cce-af5d-fe3addb4a6eb.mp4?expires=1740140957&sign=1093989be20cb34b19a490d2a5b371b7\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":324657795,\"created_at\":\"2025-02-21T11:59:17.340492Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-070e-ac4e6f95bb7b/73746f72-016d-312d-0704-ac4ef273df94?filename=Screen+Recording+2025-02-21+at+15.15.03.mov-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"01952860-40d5-7779-aaff-69cb69fe76d6\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/4a08dc2a-336f-4633-9d51-5b73bb1f8c65/mp4/01952860-40d5-7779-aaff-69cb69fe76d6/01952850-374d-7cce-af5d-fe3addb4a6eb.mp4?expires=1740140957&sign=da9c56c947ff1d3c68bef101715042a9\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":208351889,\"created_at\":\"2025-02-21T11:59:17.340492Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0713-ac4e85f9a7ca/73746f72-016d-312d-0704-ac4ef273df94?filename=Screen+Recording+2025-02-21+at+15.15.03.mov-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"058fda8f-831c-489f-947b-319410d05004\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/4a08dc2a-336f-4633-9d51-5b73bb1f8c65/md/058fda8f-831c-489f-947b-319410d05004.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/4a08dc2a-336f-4633-9d51-5b73bb1f8c65/sm/058fda8f-831c-489f-947b-319410d05004.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/4a08dc2a-336f-4633-9d51-5b73bb1f8c65/xs/058fda8f-831c-489f-947b-319410d05004.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"4a08dc2a-336f-4633-9d51-5b73bb1f8c65\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/4a08dc2a-336f-4633-9d51-5b73bb1f8c65/058fda8f-831c-489f-947b-319410d05004.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":3450.619,\"hls_link\":\"https://kinescope.io/kgHL5R7ezgK1E5rKQSB1uA/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/kgHL5R7ezgK1E5rKQSB1uA\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-21T11:12:56.384092Z\",\"embed_link\":\"https://kinescope.io/embed/kgHL5R7ezgK1E5rKQSB1uA\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 128232,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Thu Feb 20 2025 12:20:26 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128233,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Thu Feb 20 2025 12:20:45 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128234,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Thu Feb 20 2025 12:20:45 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128235,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Thu Feb 20 2025 12:21:41 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 34183,
+        "lesson": {
+          "id": 48404,
+          "name": "Number and String Operations.",
+          "createdAt": "Thu Feb 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 25454616,
+        "status": 2,
+        "origName": "2025-02-20 15-54-01.mp4",
+        "url": "bcb703dc-01f4-425e-8828-5ce9963c8924",
+        "createdAt": "Thu Feb 20 2025 12:20:26 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"bcb703dc-01f4-425e-8828-5ce9963c8924\",\"tags\":[],\"title\":\"2025-02-20 15-54-01.mp4\",\"assets\":[{\"id\":\"0195234e-775f-712f-8b63-da82ae953b8c\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/a016aa3e-8958-48a6-9421-89c2c21fb970/mp4/0195234e-775f-712f-8b63-da82ae953b8c/0195234d-c5b0-7db8-be7d-e5f29647b726.mp4?expires=1740055901&sign=3fac22585e8e20d04fd3c6034606794a\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":10042952,\"created_at\":\"2025-02-20T12:21:40.692609Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0717-ac4ef34252ec/73746f72-016d-312d-0711-ac4e8626b321?filename=2025-02-20+15-54-01.mp4-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"0195234e-7639-7591-b0c5-4cc2b560eb1b\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/a016aa3e-8958-48a6-9421-89c2c21fb970/mp4/0195234e-7639-7591-b0c5-4cc2b560eb1b/0195234d-c5b0-7db8-be7d-e5f29647b726.mp4?expires=1740055901&sign=bf918e4e945e32bde1e262a83d7fff6e\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":6019901,\"created_at\":\"2025-02-20T12:21:40.692609Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0707-ac4e598ac9bd/73746f72-016d-312d-0711-ac4e8626b321?filename=2025-02-20+15-54-01.mp4-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"ec58a157-840f-4062-988b-92ef8b4375e4\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/a016aa3e-8958-48a6-9421-89c2c21fb970/md/ec58a157-840f-4062-988b-92ef8b4375e4.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/a016aa3e-8958-48a6-9421-89c2c21fb970/sm/ec58a157-840f-4062-988b-92ef8b4375e4.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/a016aa3e-8958-48a6-9421-89c2c21fb970/xs/ec58a157-840f-4062-988b-92ef8b4375e4.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"a016aa3e-8958-48a6-9421-89c2c21fb970\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/a016aa3e-8958-48a6-9421-89c2c21fb970/ec58a157-840f-4062-988b-92ef8b4375e4.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":367.83334,\"hls_link\":\"https://kinescope.io/piAnvCHcKVruX34N6KQCTW/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/piAnvCHcKVruX34N6KQCTW\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-20T12:20:26.285836Z\",\"embed_link\":\"https://kinescope.io/embed/piAnvCHcKVruX34N6KQCTW\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 128155,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Thu Feb 20 2025 10:53:55 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128158,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Thu Feb 20 2025 10:54:53 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128160,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Thu Feb 20 2025 10:55:10 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 128165,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Thu Feb 20 2025 11:01:06 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 34162,
+        "lesson": {
+          "id": 48404,
+          "name": "Number and String Operations.",
+          "createdAt": "Thu Feb 20 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 175977284,
+        "status": 2,
+        "origName": "2025-02-20 15-00-20.mp4",
+        "url": "875301e4-d099-4402-a547-08a2be235a77",
+        "createdAt": "Thu Feb 20 2025 10:53:55 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"875301e4-d099-4402-a547-08a2be235a77\",\"tags\":[],\"title\":\"2025-02-20 15-00-20.mp4\",\"assets\":[{\"id\":\"01952304-aab2-7c84-a2cc-c4fcf5f02d12\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/bcac7cf5-12c7-4b3d-90a5-8a43ea5c9988/mp4/01952304-aab2-7c84-a2cc-c4fcf5f02d12/01952300-170d-7f14-82ba-f9b90056446b.mp4?expires=1740051066&sign=9dd91c73d17b06c1aac557bb111fdb88\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":69328075,\"created_at\":\"2025-02-20T11:01:05.811854Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0711-ab4e6bc02bff/73746f72-016d-312d-0714-ab4edd5ec962?filename=2025-02-20+15-00-20.mp4-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"01952304-a3cc-703c-aa64-f87fbf3b00de\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/bcac7cf5-12c7-4b3d-90a5-8a43ea5c9988/mp4/01952304-a3cc-703c-aa64-f87fbf3b00de/01952300-170d-7f14-82ba-f9b90056446b.mp4?expires=1740051066&sign=43365ea547537855b5bcc909dde3c027\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":41615098,\"created_at\":\"2025-02-20T11:01:05.811854Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-070c-ab4ed244ae97/73746f72-016d-312d-0714-ab4edd5ec962?filename=2025-02-20+15-00-20.mp4-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"7ad09197-2270-4be1-9057-76dabe4920e7\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/bcac7cf5-12c7-4b3d-90a5-8a43ea5c9988/md/7ad09197-2270-4be1-9057-76dabe4920e7.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/bcac7cf5-12c7-4b3d-90a5-8a43ea5c9988/sm/7ad09197-2270-4be1-9057-76dabe4920e7.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/bcac7cf5-12c7-4b3d-90a5-8a43ea5c9988/xs/7ad09197-2270-4be1-9057-76dabe4920e7.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"bcac7cf5-12c7-4b3d-90a5-8a43ea5c9988\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/bcac7cf5-12c7-4b3d-90a5-8a43ea5c9988/7ad09197-2270-4be1-9057-76dabe4920e7.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":2545.4333,\"hls_link\":\"https://kinescope.io/hHcQuGXZLm2zaovSUgy7Gx/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/hHcQuGXZLm2zaovSUgy7Gx\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-20T10:53:55.588687Z\",\"embed_link\":\"https://kinescope.io/embed/hHcQuGXZLm2zaovSUgy7Gx\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 127890,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Wed Feb 19 2025 11:49:17 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 127891,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Wed Feb 19 2025 11:51:07 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 127892,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Wed Feb 19 2025 11:51:07 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 127901,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Wed Feb 19 2025 12:05:21 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 34094,
+        "lesson": {
+          "id": 48273,
+          "name": "Bind, Call, Apply. Objects, Built-in JavaScript Objects.",
+          "createdAt": "Wed Feb 19 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 370595705,
+        "status": 2,
+        "origName": "2025-02-19 14-28-44.mp4",
+        "url": "08268a37-2459-4468-b492-8785c590d270",
+        "createdAt": "Wed Feb 19 2025 11:49:17 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"08268a37-2459-4468-b492-8785c590d270\",\"tags\":[],\"title\":\"2025-02-19 14-28-44.mp4\",\"assets\":[{\"id\":\"01951e19-1a52-78bc-9554-516d68923f49\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/3a615e47-f2c6-40ea-a73f-94dba575f447/mp4/01951e19-1a52-78bc-9554-516d68923f49/01951e0d-d446-7db6-8bbd-2873c059c704.mp4?expires=1739968521&sign=a82ce4ae70b0c3e363dafba4ba7942ed\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":241870574,\"created_at\":\"2025-02-19T12:05:21.497783Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0700-ab4ed9b1b9a2/73746f72-016d-312d-0701-ab4e69500330?filename=2025-02-19+14-28-44.mp4-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"01951e19-0a56-7aa6-9e08-fea9b7b3d6ee\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/3a615e47-f2c6-40ea-a73f-94dba575f447/mp4/01951e19-0a56-7aa6-9e08-fea9b7b3d6ee/01951e0d-d446-7db6-8bbd-2873c059c704.mp4?expires=1739968521&sign=0dbd87aa41be333786fd87868d9c709f\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":146475774,\"created_at\":\"2025-02-19T12:05:21.497783Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0705-ab4ef7038231/73746f72-016d-312d-0701-ab4e69500330?filename=2025-02-19+14-28-44.mp4-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"b0d77f61-641c-4a8d-bb72-9609f4686558\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/3a615e47-f2c6-40ea-a73f-94dba575f447/md/b0d77f61-641c-4a8d-bb72-9609f4686558.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/3a615e47-f2c6-40ea-a73f-94dba575f447/sm/b0d77f61-641c-4a8d-bb72-9609f4686558.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/3a615e47-f2c6-40ea-a73f-94dba575f447/xs/b0d77f61-641c-4a8d-bb72-9609f4686558.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"3a615e47-f2c6-40ea-a73f-94dba575f447\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/3a615e47-f2c6-40ea-a73f-94dba575f447/b0d77f61-641c-4a8d-bb72-9609f4686558.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":6549.033,\"hls_link\":\"https://kinescope.io/21nKfqJcqH7ar8qu8isjD7/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/21nKfqJcqH7ar8qu8isjD7\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-19T11:49:17.350802Z\",\"embed_link\":\"https://kinescope.io/embed/21nKfqJcqH7ar8qu8isjD7\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 127560,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Tue Feb 18 2025 11:38:39 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 127561,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Tue Feb 18 2025 11:40:18 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 127562,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Tue Feb 18 2025 11:40:18 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 127563,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Tue Feb 18 2025 11:54:12 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 34013,
+        "lesson": {
+          "id": 48151,
+          "name": "Scope, Execution Context, and Closures. Bind, Call, Apply.",
+          "createdAt": "Tue Feb 18 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 348472669,
+        "status": 2,
+        "origName": "2025-02-18 14-39-06.mp4",
+        "url": "5d3ae0a0-2da7-425c-9c29-e483cdb2bac6",
+        "createdAt": "Tue Feb 18 2025 11:38:39 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"5d3ae0a0-2da7-425c-9c29-e483cdb2bac6\",\"tags\":[],\"title\":\"2025-02-18 14-39-06.mp4\",\"assets\":[{\"id\":\"019518e8-8b56-79b0-80fa-546c4fd111c1\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/52c8d271-4777-452e-9bc3-3d445df0c937/mp4/019518e8-8b56-79b0-80fa-546c4fd111c1/019518dd-9837-7dd1-89a6-26ee2a98ab27.mp4?expires=1739881452&sign=1d002714109b892c7339f1e86ae6a53d\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":156105057,\"created_at\":\"2025-02-18T11:54:11.496059Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-070b-a94e90900e39/73746f72-016d-312d-0716-a94e416c8242?filename=2025-02-18+14-39-06.mp4-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"019518e8-7fa5-7b68-a436-0d38f1f7559c\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/52c8d271-4777-452e-9bc3-3d445df0c937/mp4/019518e8-7fa5-7b68-a436-0d38f1f7559c/019518dd-9837-7dd1-89a6-26ee2a98ab27.mp4?expires=1739881452&sign=17bbb72285693640d99818678858d144\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":97306829,\"created_at\":\"2025-02-18T11:54:11.496059Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0718-a94ea96f13aa/73746f72-016d-312d-0716-a94e416c8242?filename=2025-02-18+14-39-06.mp4-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"d3625d68-f3df-4efa-88e4-72814ba8f8ce\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/52c8d271-4777-452e-9bc3-3d445df0c937/md/d3625d68-f3df-4efa-88e4-72814ba8f8ce.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/52c8d271-4777-452e-9bc3-3d445df0c937/sm/d3625d68-f3df-4efa-88e4-72814ba8f8ce.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/52c8d271-4777-452e-9bc3-3d445df0c937/xs/d3625d68-f3df-4efa-88e4-72814ba8f8ce.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"52c8d271-4777-452e-9bc3-3d445df0c937\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/52c8d271-4777-452e-9bc3-3d445df0c937/d3625d68-f3df-4efa-88e4-72814ba8f8ce.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":6223,\"hls_link\":\"https://kinescope.io/cvHQx3WAQXQ3ZGEMZhWo73/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/cvHQx3WAQXQ3ZGEMZhWo73\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-18T11:38:39.380882Z\",\"embed_link\":\"https://kinescope.io/embed/cvHQx3WAQXQ3ZGEMZhWo73\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 127201,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Mon Feb 17 2025 12:14:04 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 127207,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Mon Feb 17 2025 12:22:50 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 127215,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Mon Feb 17 2025 12:41:27 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 127224,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Mon Feb 17 2025 12:51:13 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 33927,
+        "lesson": {
+          "id": 48016,
+          "name": "JavaScript Conditional and Loop Operators. Functions and Their Types (Function Expression and Function Declaration, Anonymous Functions, Arrow Functions, Callback Functions). Recursion in JavaScript.",
+          "createdAt": "Mon Feb 17 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 325683268,
+        "status": 2,
+        "origName": "2025-02-17 14-13-00.mp4",
+        "url": "82f6044d-39e2-4e7d-8e8f-109b21f4d600",
+        "createdAt": "Mon Feb 17 2025 12:14:04 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"82f6044d-39e2-4e7d-8e8f-109b21f4d600\",\"tags\":[],\"title\":\"2025-02-17 14-13-00.mp4\",\"assets\":[{\"id\":\"019513f6-6472-7f0a-93ff-1d1eae6cd142\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/ddfec190-9590-48d8-8526-4464a19e293e/mp4/019513f6-6472-7f0a-93ff-1d1eae6cd142/019513ee-ad06-7279-a985-bc0c4dad9436.mp4?expires=1739798473&sign=e81b8319d4d3c3eee57a76aa6d604f28\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":223158055,\"created_at\":\"2025-02-17T12:51:12.524954Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0710-a94ef6e70ff3/73746f72-016d-312d-0700-a94e5a50c9e6?filename=2025-02-17+14-13-00.mp4-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"019513f6-5b42-7031-9c36-c12e301917ba\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/ddfec190-9590-48d8-8526-4464a19e293e/mp4/019513f6-5b42-7031-9c36-c12e301917ba/019513ee-ad06-7279-a985-bc0c4dad9436.mp4?expires=1739798473&sign=016426fbaa6cdde8ee46ca3619b28588\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":134441493,\"created_at\":\"2025-02-17T12:51:12.524954Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0703-a94e0c39b94a/73746f72-016d-312d-0700-a94e5a50c9e6?filename=2025-02-17+14-13-00.mp4-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"80eb999c-e38d-40e9-ade1-35bcd92758f5\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ddfec190-9590-48d8-8526-4464a19e293e/md/80eb999c-e38d-40e9-ade1-35bcd92758f5.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ddfec190-9590-48d8-8526-4464a19e293e/sm/80eb999c-e38d-40e9-ade1-35bcd92758f5.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ddfec190-9590-48d8-8526-4464a19e293e/xs/80eb999c-e38d-40e9-ade1-35bcd92758f5.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"ddfec190-9590-48d8-8526-4464a19e293e\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/ddfec190-9590-48d8-8526-4464a19e293e/80eb999c-e38d-40e9-ade1-35bcd92758f5.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":4329.933,\"hls_link\":\"https://kinescope.io/haXkGPf8mjRL5TB6u8CgDS/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/haXkGPf8mjRL5TB6u8CgDS\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-17T12:14:04.034257Z\",\"embed_link\":\"https://kinescope.io/embed/haXkGPf8mjRL5TB6u8CgDS\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 126593,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Fri Feb 14 2025 11:45:25 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126597,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Fri Feb 14 2025 11:48:57 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126599,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Fri Feb 14 2025 11:49:23 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126611,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Fri Feb 14 2025 12:01:09 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 33774,
+        "lesson": {
+          "id": 47806,
+          "name": "JavaScript Conditional and Loop Operators.",
+          "createdAt": "Fri Feb 14 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 352486522,
+        "status": 2,
+        "origName": "2025-02-14 14-39-25.mp4",
+        "url": "c6b90afa-765c-4c9e-9989-332c874b5657",
+        "createdAt": "Fri Feb 14 2025 11:45:25 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"c6b90afa-765c-4c9e-9989-332c874b5657\",\"tags\":[],\"title\":\"2025-02-14 14-39-25.mp4\",\"assets\":[{\"id\":\"01950455-7e36-7eaa-a5e4-1b1230f843e0\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/063cb73d-f718-4776-a33d-ca1c377f5b07/mp4/01950455-7e36-7eaa-a5e4-1b1230f843e0/0195044b-c1b9-7f23-93cd-911b9a7ab620.mp4?expires=1739536269&sign=78ce93f46764dbeed42a177a03f01316\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":208601587,\"created_at\":\"2025-02-14T12:01:09.145089Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0704-a64ea6f95bde/73746f72-016d-312d-0714-a64e264ad62c?filename=2025-02-14+14-39-25.mp4-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"01950455-73ce-7866-9a20-a70aa9bedf21\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/063cb73d-f718-4776-a33d-ca1c377f5b07/mp4/01950455-73ce-7866-9a20-a70aa9bedf21/0195044b-c1b9-7f23-93cd-911b9a7ab620.mp4?expires=1739536269&sign=c645b40437236ed38905c14c907a48ae\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":124194574,\"created_at\":\"2025-02-14T12:01:09.145089Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0719-a64e77a9fe56/73746f72-016d-312d-0714-a64e264ad62c?filename=2025-02-14+14-39-25.mp4-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"d7f0302e-18dd-484b-9e6e-274380998aba\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/063cb73d-f718-4776-a33d-ca1c377f5b07/md/d7f0302e-18dd-484b-9e6e-274380998aba.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/063cb73d-f718-4776-a33d-ca1c377f5b07/sm/d7f0302e-18dd-484b-9e6e-274380998aba.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/063cb73d-f718-4776-a33d-ca1c377f5b07/xs/d7f0302e-18dd-484b-9e6e-274380998aba.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"063cb73d-f718-4776-a33d-ca1c377f5b07\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/063cb73d-f718-4776-a33d-ca1c377f5b07/d7f0302e-18dd-484b-9e6e-274380998aba.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":4879.067,\"hls_link\":\"https://kinescope.io/qxgEYp2EmMvHV77c2bWBsp/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/qxgEYp2EmMvHV77c2bWBsp\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-14T11:45:25.276372Z\",\"embed_link\":\"https://kinescope.io/embed/qxgEYp2EmMvHV77c2bWBsp\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 126592,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Fri Feb 14 2025 11:45:15 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126594,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Fri Feb 14 2025 11:46:10 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126595,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Fri Feb 14 2025 11:46:11 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126598,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Fri Feb 14 2025 11:49:16 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 33773,
+        "lesson": {
+          "id": 47806,
+          "name": "JavaScript Conditional and Loop Operators.",
+          "createdAt": "Fri Feb 14 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 92564132,
+        "status": 2,
+        "origName": "Git va github",
+        "url": "e08568a1-c3fd-4b27-a938-554e866fd4ae",
+        "createdAt": "Fri Feb 14 2025 11:45:15 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"e08568a1-c3fd-4b27-a938-554e866fd4ae\",\"tags\":[],\"title\":\"Git va github\",\"assets\":[{\"id\":\"0195044a-9f10-7891-9c3e-bda6d18b1ea9\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/7c0ef991-5b0e-4a02-8650-a5ded4d7392a/mp4/0195044a-9f10-7891-9c3e-bda6d18b1ea9/01950448-54fb-7e40-9f52-671820bf4c92.mp4?expires=1739535556&sign=2dda1be38293b080f567c96ce9589250\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":68702507,\"created_at\":\"2025-02-14T11:49:15.50262Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0709-a54e62a32be6/73746f72-016d-312d-0703-a54e3ffa47dd?filename=Git+va+github-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"0195044a-9c1f-7047-ad7e-fccba0c06d9c\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/7c0ef991-5b0e-4a02-8650-a5ded4d7392a/mp4/0195044a-9c1f-7047-ad7e-fccba0c06d9c/01950448-54fb-7e40-9f52-671820bf4c92.mp4?expires=1739535556&sign=4326d9d7a36f9a4ea64ffc19de57743c\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":38814819,\"created_at\":\"2025-02-14T11:49:15.50262Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0706-a54ef57df580/73746f72-016d-312d-0703-a54e3ffa47dd?filename=Git+va+github-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"6cb40067-e8c1-462f-97da-2123d9532035\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/7c0ef991-5b0e-4a02-8650-a5ded4d7392a/md/6cb40067-e8c1-462f-97da-2123d9532035.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/7c0ef991-5b0e-4a02-8650-a5ded4d7392a/sm/6cb40067-e8c1-462f-97da-2123d9532035.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/7c0ef991-5b0e-4a02-8650-a5ded4d7392a/xs/6cb40067-e8c1-462f-97da-2123d9532035.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"7c0ef991-5b0e-4a02-8650-a5ded4d7392a\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/7c0ef991-5b0e-4a02-8650-a5ded4d7392a/6cb40067-e8c1-462f-97da-2123d9532035.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":1172.2333,\"hls_link\":\"https://kinescope.io/tJ3jg4cJKsdrJa5RQFwmkQ/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/tJ3jg4cJKsdrJa5RQFwmkQ\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-14T11:45:15.467062Z\",\"embed_link\":\"https://kinescope.io/embed/tJ3jg4cJKsdrJa5RQFwmkQ\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 126533,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Fri Feb 14 2025 06:58:34 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126551,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Fri Feb 14 2025 07:21:13 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126552,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Fri Feb 14 2025 07:21:14 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126555,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Fri Feb 14 2025 07:47:43 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 33762,
+        "lesson": {
+          "id": 47690,
+          "name": "Introduction to JavaScript. Variables, Data Types, and Operators",
+          "createdAt": "Thu Feb 13 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 608429356,
+        "status": 2,
+        "origName": "2025-02-13 14-05-59.mp4",
+        "url": "1c3ed138-cfc3-4f56-9874-e3ee48f43c5c",
+        "createdAt": "Fri Feb 14 2025 06:58:34 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"1c3ed138-cfc3-4f56-9874-e3ee48f43c5c\",\"tags\":[],\"title\":\"2025-02-13 14-05-59.mp4\",\"assets\":[{\"id\":\"0195036d-5c53-7612-b172-be95a04a1212\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/8888d8fb-3519-4d88-9b31-2872204ab428/mp4/0195036d-5c53-7612-b172-be95a04a1212/01950358-8803-785a-ad32-14f30ace3ba2.mp4?expires=1739521063&sign=5805bee9d4fe409cc4680626e84c0716\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":450007327,\"created_at\":\"2025-02-14T07:47:42.476188Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0715-a54e443e4f76/73746f72-016d-312d-0705-a54eaf310669?filename=2025-02-13+14-05-59.mp4-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"0195036d-3549-7d1e-a192-11ecf4c8bd19\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/8888d8fb-3519-4d88-9b31-2872204ab428/mp4/0195036d-3549-7d1e-a192-11ecf4c8bd19/01950358-8803-785a-ad32-14f30ace3ba2.mp4?expires=1739521063&sign=ca90c4c14f882130265009942f00f0d1\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":275750518,\"created_at\":\"2025-02-14T07:47:42.476188Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0718-a54e6275a240/73746f72-016d-312d-0705-a54eaf310669?filename=2025-02-13+14-05-59.mp4-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"ceeedcb1-2fe8-4bf2-9097-d14997295365\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/8888d8fb-3519-4d88-9b31-2872204ab428/md/ceeedcb1-2fe8-4bf2-9097-d14997295365.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/8888d8fb-3519-4d88-9b31-2872204ab428/sm/ceeedcb1-2fe8-4bf2-9097-d14997295365.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/8888d8fb-3519-4d88-9b31-2872204ab428/xs/ceeedcb1-2fe8-4bf2-9097-d14997295365.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"8888d8fb-3519-4d88-9b31-2872204ab428\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/8888d8fb-3519-4d88-9b31-2872204ab428/ceeedcb1-2fe8-4bf2-9097-d14997295365.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":8604.434,\"hls_link\":\"https://kinescope.io/4uiak1z16dQNus3sSx6dVS/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/4uiak1z16dQNus3sSx6dVS\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-14T06:58:34.207772Z\",\"embed_link\":\"https://kinescope.io/embed/4uiak1z16dQNus3sSx6dVS\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 125998,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Wed Feb 12 2025 13:45:06 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125999,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Wed Feb 12 2025 13:47:59 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126000,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Wed Feb 12 2025 13:47:59 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126003,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Wed Feb 12 2025 13:50:50 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 126006,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Wed Feb 12 2025 13:59:46 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 33620,
+        "lesson": {
+          "id": 47593,
+          "name": "1-oy 3-dars HTML Forms and Their Components.\n",
+          "createdAt": "Wed Feb 12 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 140525300,
+        "status": 2,
+        "origName": "HTML flex.mkv",
+        "url": "77d4b1ee-b826-4cf6-9064-0e73338dc2b4",
+        "createdAt": "Wed Feb 12 2025 13:45:06 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"77d4b1ee-b826-4cf6-9064-0e73338dc2b4\",\"tags\":[],\"title\":\"HTML flex.mkv\",\"assets\":[{\"id\":\"0194fa75-6307-7c0f-b50f-a87ee2b3c208\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/0ad73f60-de14-4fae-92ac-9ffa89190679/mp4/0194fa75-6307-7c0f-b50f-a87ee2b3c208/0194fa6d-d5c0-7466-9470-de61ffd27185.mp4?expires=1739370586&sign=0eeafcc567579de2564148cbc0a398e0\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":182753446,\"created_at\":\"2025-02-12T13:59:46.487781Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0710-a44e14249bf7/73746f72-016d-312d-0717-a44e9d6fea35?filename=HTML+flex.mkv-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"0194fa75-5cb9-70de-b11d-5e2e9f5f938f\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/0ad73f60-de14-4fae-92ac-9ffa89190679/mp4/0194fa75-5cb9-70de-b11d-5e2e9f5f938f/0194fa6d-d5c0-7466-9470-de61ffd27185.mp4?expires=1739370586&sign=ada842e1857b8b7c272510d9b97b48ad\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":82388310,\"created_at\":\"2025-02-12T13:59:46.487781Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-070a-a44e2a9d52f6/73746f72-016d-312d-0717-a44e9d6fea35?filename=HTML+flex.mkv-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"9ad2ada6-73bc-48e2-a45d-6e6658772532\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/0ad73f60-de14-4fae-92ac-9ffa89190679/md/9ad2ada6-73bc-48e2-a45d-6e6658772532.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/0ad73f60-de14-4fae-92ac-9ffa89190679/sm/9ad2ada6-73bc-48e2-a45d-6e6658772532.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/0ad73f60-de14-4fae-92ac-9ffa89190679/xs/9ad2ada6-73bc-48e2-a45d-6e6658772532.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"0ad73f60-de14-4fae-92ac-9ffa89190679\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/0ad73f60-de14-4fae-92ac-9ffa89190679/9ad2ada6-73bc-48e2-a45d-6e6658772532.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":2147.017,\"hls_link\":\"https://kinescope.io/fNeRLPxXseGEkEh1T8vazw/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/fNeRLPxXseGEkEh1T8vazw\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-12T13:45:06.820972Z\",\"embed_link\":\"https://kinescope.io/embed/fNeRLPxXseGEkEh1T8vazw\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 125692,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Tue Feb 11 2025 16:59:07 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125695,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Tue Feb 11 2025 17:00:10 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125702,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Tue Feb 11 2025 17:06:49 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125705,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Tue Feb 11 2025 17:10:29 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 33543,
+        "lesson": {
+          "id": 47442,
+          "name": "1-oy 2-dars Basics of HTML (TAG, formatting, lists, links, tables).",
+          "createdAt": "Tue Feb 11 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 56335662,
+        "status": 2,
+        "origName": "2025-02-11 18-20-00.mkv",
+        "url": "da9b5174-0003-4d28-be67-29813c87d9ee",
+        "createdAt": "Tue Feb 11 2025 16:59:07 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"da9b5174-0003-4d28-be67-29813c87d9ee\",\"tags\":[],\"title\":\"2025-02-11 18-20-00.mkv\",\"assets\":[{\"id\":\"0194f5fd-a098-7484-8442-ad9a6c1c9f1b\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/a0f10dc3-a560-4df5-9716-72f66c64102d/mp4/0194f5fd-a098-7484-8442-ad9a6c1c9f1b/0194f5fa-8737-7b18-9bf2-f75b4c63a9c8.mp4?expires=1739295629&sign=916510281400d341544923bdb275cf74\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":84300983,\"created_at\":\"2025-02-11T17:10:28.629081Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0717-a34e5c989472/73746f72-016d-312d-070e-a34e53b08b45?filename=2025-02-11+18-20-00.mkv-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"0194f5fd-9d7f-76f6-8a64-9234fbbb018d\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/a0f10dc3-a560-4df5-9716-72f66c64102d/mp4/0194f5fd-9d7f-76f6-8a64-9234fbbb018d/0194f5fa-8737-7b18-9bf2-f75b4c63a9c8.mp4?expires=1739295629&sign=ddb864cbf87387d5ff4d1e2ec5e3781a\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":40761061,\"created_at\":\"2025-02-11T17:10:28.629081Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0710-a34e5d8e8857/73746f72-016d-312d-070e-a34e53b08b45?filename=2025-02-11+18-20-00.mkv-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"55c0aece-f10c-41e4-8cce-1b53610cf7f2\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/a0f10dc3-a560-4df5-9716-72f66c64102d/md/55c0aece-f10c-41e4-8cce-1b53610cf7f2.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/a0f10dc3-a560-4df5-9716-72f66c64102d/sm/55c0aece-f10c-41e4-8cce-1b53610cf7f2.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/a0f10dc3-a560-4df5-9716-72f66c64102d/xs/55c0aece-f10c-41e4-8cce-1b53610cf7f2.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"a0f10dc3-a560-4df5-9716-72f66c64102d\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/a0f10dc3-a560-4df5-9716-72f66c64102d/55c0aece-f10c-41e4-8cce-1b53610cf7f2.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":767.45,\"hls_link\":\"https://kinescope.io/sZFsFDpcqugsJw3kecuLnd/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/sZFsFDpcqugsJw3kecuLnd\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-11T16:59:07.849926Z\",\"embed_link\":\"https://kinescope.io/embed/sZFsFDpcqugsJw3kecuLnd\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 125493,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Tue Feb 11 2025 12:08:30 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125498,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Tue Feb 11 2025 12:22:11 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125564,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Tue Feb 11 2025 14:22:11 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125580,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Tue Feb 11 2025 14:40:31 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 33496,
+        "lesson": {
+          "id": 47469,
+          "name": "1-oy 2-dars Basics of HTML (TAG, formatting, lists, links, tables).",
+          "createdAt": "Tue Feb 11 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 692510539,
+        "status": 2,
+        "origName": "2025-02-11 14-15-47.mp4",
+        "url": "8dbf33a4-9e0c-41cb-9608-e22c138fa6e4",
+        "createdAt": "Tue Feb 11 2025 12:08:30 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"8dbf33a4-9e0c-41cb-9608-e22c138fa6e4\",\"tags\":[],\"title\":\"2025-02-11 14-15-47.mp4\",\"assets\":[{\"id\":\"0194f574-4229-7ce6-bd07-a78fa260fa47\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/88d614d6-1056-4643-8c57-3fb196937adf/mp4/0194f574-4229-7ce6-bd07-a78fa260fa47/0194f565-dd27-7543-b737-ca1e32603409.mp4?expires=1739286631&sign=7b8f2ce317a6f61be6d3ebee140c93e6\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":487737003,\"created_at\":\"2025-02-11T14:40:30.917538Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0714-a34eac739df0/73746f72-016d-312d-0703-a34ebc839fcd?filename=2025-02-11+14-15-47.mp4-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"0194f574-2c19-74ce-abf5-da33702bf88d\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/88d614d6-1056-4643-8c57-3fb196937adf/mp4/0194f574-2c19-74ce-abf5-da33702bf88d/0194f565-dd27-7543-b737-ca1e32603409.mp4?expires=1739286631&sign=3d14f176c53a79a586a9f6c8e5a8aac4\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":289895699,\"created_at\":\"2025-02-11T14:40:30.917538Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-0715-a34e1be63fc9/73746f72-016d-312d-0703-a34ebc839fcd?filename=2025-02-11+14-15-47.mp4-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"637f5962-accd-42e2-b89d-874ed8d63c16\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/88d614d6-1056-4643-8c57-3fb196937adf/md/637f5962-accd-42e2-b89d-874ed8d63c16.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/88d614d6-1056-4643-8c57-3fb196937adf/sm/637f5962-accd-42e2-b89d-874ed8d63c16.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/88d614d6-1056-4643-8c57-3fb196937adf/xs/637f5962-accd-42e2-b89d-874ed8d63c16.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"88d614d6-1056-4643-8c57-3fb196937adf\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/88d614d6-1056-4643-8c57-3fb196937adf/637f5962-accd-42e2-b89d-874ed8d63c16.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":8123.9,\"hls_link\":\"https://kinescope.io/ivcNGvZr2cmzYLp1yE8P2o/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/ivcNGvZr2cmzYLp1yE8P2o\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-11T12:08:30.697995Z\",\"embed_link\":\"https://kinescope.io/embed/ivcNGvZr2cmzYLp1yE8P2o\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      },
+      {
+        "statusHistories": [
+          {
+            "id": 125262,
+            "message": "Fayl yuklanish jarayonida",
+            "status": 5,
+            "createdAt": "Mon Feb 10 2025 14:49:36 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125267,
+            "message": "Konvertatsiya qilinishni kutyapti",
+            "status": 6,
+            "createdAt": "Mon Feb 10 2025 14:57:56 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125270,
+            "message": "Kinescopeda konvertatsiya qilinmoqda",
+            "status": 1,
+            "createdAt": "Mon Feb 10 2025 15:00:12 GMT+0000 (Coordinated Universal Time)"
+          },
+          {
+            "id": 125274,
+            "message": "Fayl yuklandi",
+            "status": 2,
+            "createdAt": "Mon Feb 10 2025 15:10:32 GMT+0000 (Coordinated Universal Time)"
+          }
+        ],
+        "id": 33424,
+        "lesson": {
+          "id": 47314,
+          "name": "1-oy 1-dars  Introduction. Setting Up and Configuring the Development Environment. History of HTML and CSS.\n",
+          "createdAt": "Mon Feb 10 2025 00:00:00 GMT+0000 (Coordinated Universal Time)"
+        },
+        "size": 377479025,
+        "status": 2,
+        "origName": "2025-02-10 15-12-46.mp4",
+        "url": "44a858b4-3114-4921-96f1-39fe665e4748",
+        "createdAt": "Mon Feb 10 2025 14:49:36 GMT+0000 (Coordinated Universal Time)",
+        "info": "{\"id\":\"44a858b4-3114-4921-96f1-39fe665e4748\",\"tags\":[],\"title\":\"2025-02-10 15-12-46.mp4\",\"assets\":[{\"id\":\"0194f069-709a-7b26-bbf8-06643e508b26\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/e79c69cb-6a18-438b-b19b-9354da11e05f/mp4/0194f069-709a-7b26-bbf8-06643e508b26/0194f061-6e9f-7ce4-bf5e-194d6d29d7c9.mp4?expires=1739202032&sign=d46254f77d180580f6d9dc2c42805823\",\"quality\":\"1080p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":271856084,\"created_at\":\"2025-02-10T15:10:32.345342Z\",\"resolution\":\"1920x1080\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-070c-a24ef24057a4/73746f72-016d-312d-0708-a24e83e77532?filename=2025-02-10+15-12-46.mp4-1080p.mp4\",\"original_name\":\"1080p.mp4\"},{\"id\":\"0194f069-6601-7d19-8117-3ceed1624a25\",\"url\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/videos/e79c69cb-6a18-438b-b19b-9354da11e05f/mp4/0194f069-6601-7d19-8117-3ceed1624a25/0194f061-6e9f-7ce4-bf5e-194d6d29d7c9.mp4?expires=1739202032&sign=1177a24426fc568074500ef22b9d9f23\",\"quality\":\"720p\",\"filetype\":\"mp4\",\"video_id\":\"00000000-0000-0000-0000-000000000000\",\"file_size\":158951272,\"created_at\":\"2025-02-10T15:10:32.345342Z\",\"resolution\":\"1280x720\",\"download_link\":\"https://msk-7-storage.kinescope.io/mp4/73746f72-016d-312d-070a-a24ee00e614e/73746f72-016d-312d-0708-a24e83e77532?filename=2025-02-10+15-12-46.mp4-720p.mp4\",\"original_name\":\"720p.mp4\"}],\"poster\":{\"id\":\"037e321d-91fd-4df2-9f73-7c94bb0e7ba7\",\"md\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/e79c69cb-6a18-438b-b19b-9354da11e05f/md/037e321d-91fd-4df2-9f73-7c94bb0e7ba7.jpg\",\"sm\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/e79c69cb-6a18-438b-b19b-9354da11e05f/sm/037e321d-91fd-4df2-9f73-7c94bb0e7ba7.jpg\",\"xs\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/e79c69cb-6a18-438b-b19b-9354da11e05f/xs/037e321d-91fd-4df2-9f73-7c94bb0e7ba7.jpg\",\"type\":\"image\",\"active\":true,\"status\":\"done\",\"to_time\":0,\"media_id\":\"e79c69cb-6a18-438b-b19b-9354da11e05f\",\"original\":\"https://kinescopecdn.net/ccfa7e88-234a-4845-9130-0f45b4c71e05/posters/e79c69cb-6a18-438b-b19b-9354da11e05f/037e321d-91fd-4df2-9f73-7c94bb0e7ba7.jpg\",\"from_time\":0},\"status\":\"done\",\"version\":1,\"chapters\":{\"items\":[],\"enabled\":false},\"duration\":4456.3667,\"hls_link\":\"https://kinescope.io/9tJrANujG7HWJyGhLyTbD7/master.m3u8\",\"progress\":0,\"subtitle\":\"\",\"folder_id\":\"6c8171b6-7d9b-40ca-9225-61fe3980877b\",\"play_link\":\"https://kinescope.io/9tJrANujG7HWJyGhLyTbD7\",\"player_id\":\"882c5e8c-b692-43c9-983c-5a078ba410c6\",\"subtitles\":[],\"created_at\":\"2025-02-10T14:49:36.732547Z\",\"embed_link\":\"https://kinescope.io/embed/9tJrANujG7HWJyGhLyTbD7\",\"project_id\":\"70dcbdf6-de9b-4b6f-b370-d32698b2d9d2\",\"updated_at\":null,\"description\":\"Bootcamp Full Stack (NodeJS+ReactJS) N20 (1542) guruhi uchun video.\",\"privacy_type\":\"anywhere\",\"privacy_share\":{},\"privacy_domains\":[],\"subtitles_enabled\":false,\"additional_materials\":[],\"additional_materials_enabled\":false}",
+        "isLastVideo": false
+      }
+    ]
+  },
+  "error": null,
+  "success": true
+}
