@@ -1,7 +1,6 @@
+# home work
 
-
-
-1.id, name va price xususiyatlariga ega Product deb
+1. id, name va price xususiyatlariga ega Product deb
 nomlangan class yozing. Har safar yangi product kiritilganda
 qiymati bittaga oshib boruvchi static productCount xususiyatini qoâ€™shing.
 Mahsulotlarning umumiy narxini hisoblab beruvchi totalPrice metodini yarating.
