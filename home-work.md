@@ -8,27 +8,29 @@ Product classidan CareProduct deb nomlangan voris class yarating
  va unga kafolat muddati uchun warrantyPeriod xususiyatini qo'shing.
  Voris class uchun kafolat muddatini hisobga oluvchi
  totalPrice metodini qayta yozing. Bunda agar kafolat muddatiga
- 5 kun qolgan boâ€™lsa 10%,
- 4 kun qolgan boâ€™lsa 20%,
- 3 kun qolgan boâ€™lsa 30%,
- 2 kun qolgan boâ€™lsa 40% va
- 1 kun qolgan boâ€™lsa 50% narxda hisoblashni amalga oshiring.
+ 5 kun qolgan bo'lsa 10%,
+ 4 kun qolgan bo'lsa 20%,
+ 3 kun qolgan bo'lsa 30%,
+ 2 kun qolgan bo'lsa 40% va
+ 1 kun qolgan bo'lsa 50% narxda hisoblashni amalga oshiring.
 
  2. x va y koordinatalarni qabul qiluvchi Point nomli class yozing.
 Shuningdek ushbu class ikki nuqta orasidagi masofani hisoblovchi
 distance nomli static metodga ega bo'lsin.
-Input:
-let p1 = new Point(5, 5);
-let p2 = new Point(9, 8);
-console.log(Point.distance(p1, p2));
 
-3. name va departments (array) xususiyatlariga ega boâ€™lgan
+```js
+    Input:
+      let p1 = new Point(5, 5);
+      let p2 = new Point(9, 8);
+      console.log(Point.distance(p1, p2));
+```
+3. name va departments (array) xususiyatlariga ega bo'lgan
 Universitet nomli class yarating. Ushbu classga yangi
 bo'lim(department) qo'shish, bo'limni olib tashlash va
 barcha bo'limlarni ko'rsatish metodlarini yozing.
 Universitet classidan object yarating, 5ta yangi bo'lim
-qo'shing va 2 ta boâ€™limni olib tashlang.
- Qolgan boâ€™limlar roâ€™yxatini chiqaring.
+qo'shing va 2 ta bo'limni olib tashlang.
+ Qolgan bo'limlar ro'yxatini chiqaring.
 
 
 
@@ -56,37 +58,38 @@ Bank ish kunida shanba va yakshanba dam olish kuni sifatida hisoblanmaydi.
 funksiyani yozing. Natijada umumiy qiymatlar bilan kalit-qiymat juftliklari
 yangi obyekt shaklida qaytarilsin. Ikkala obyektning tuzilmalari turli darajada
  murakkab va ichma-ich bo'lishi mumkin.
-
+```js
  const jsonData1 = {
-  user: {
-name: "Ali",
-age: 25,
-address: {
-  city: "Tashkent",
-  zip: "100000"
-}
+    user: {
+    name: "Ali",
+    age: 25,
+    address: {
+      city: "Tashkent",
+      zip: "100000"
+    }
   },
   active: true
 };
 
 const jsonData2 = {
   user: {
-name: "Ali",
-age: 30,
-    address: {
-      city: "Tashkent",
-      zip: "200000"
-    }
-  },
+  name: "Ali",
+  age: 30,
+      address: {
+        city: "Tashkent",
+        zip: "200000"
+      }
+    },
   active: true
 };
 
 console.log(findCommonPairs(jsonData1, jsonData2));
-/* Chiqish:
+```js
+Chiqish:
 {
   user: {
     name: "Ali"
   },
   active: true
 }
-*/
+````
