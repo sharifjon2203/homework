@@ -1,139 +1,93 @@
-# Leetcode
-
-1. [2506. Count Pairs Of Similar Strings](https://leetcode.com/problems/count-pairs-of-similar-strings/description/)
 
 
-# Task filedagi taskni bajarish
 
-# Destructuring, Date, JSON (JavaScript Object Notation)
-----
-## 1.
-### To-Do List Loyihasi Tavsifi
+1.id, name va price xususiyatlariga ega Product deb
+nomlangan class yozing. Har safar yangi product kiritilganda
+qiymati bittaga oshib boruvchi static productCount xususiyatini qoâ€™shing.
+Mahsulotlarning umumiy narxini hisoblab beruvchi totalPrice metodini yarating.
+Product classidan CareProduct deb nomlangan voris class yarating
+ va unga kafolat muddati uchun warrantyPeriod xususiyatini qo'shing.
+ Voris class uchun kafolat muddatini hisobga oluvchi
+ totalPrice metodini qayta yozing. Bunda agar kafolat muddatiga
+ 5 kun qolgan boâ€™lsa 10%,
+ 4 kun qolgan boâ€™lsa 20%,
+ 3 kun qolgan boâ€™lsa 30%,
+ 2 kun qolgan boâ€™lsa 40% va
+ 1 kun qolgan boâ€™lsa 50% narxda hisoblashni amalga oshiring.
 
-**Obyekt yondashuvi:** Biz to-do ro'yxatini boshqarish uchun obyekt yaratamiz. Bu obyekt ro'yxat elementlarini saqlash, yangi vazifa qo'shish, vazifa o'chirish va ro'yxatni konsol orqali ko'rish kabi metodlarga ega bo'lsin.
+ 2. x va y koordinatalarni qabul qiluvchi Point nomli class yozing.
+Shuningdek ushbu class ikki nuqta orasidagi masofani hisoblovchi
+distance nomli static metodga ega bo'lsin.
+Input:
+let p1 = new Point(5, 5);
+let p2 = new Point(9, 8);
+console.log(Point.distance(p1, p2));
 
-**Metodlar:**
+3. name va departments (array) xususiyatlariga ega boâ€™lgan
+Universitet nomli class yarating. Ushbu classga yangi
+bo'lim(department) qo'shish, bo'limni olib tashlash va
+barcha bo'limlarni ko'rsatish metodlarini yozing.
+Universitet classidan object yarating, 5ta yangi bo'lim
+qo'shing va 2 ta boâ€™limni olib tashlang.
+ Qolgan boâ€™limlar roâ€™yxatini chiqaring.
 
-- `addTask(task)`: Yangi vazifani ro'yxatga qo'shadi.
-- `removeTask(index)`: Berilgan indeksdagi vazifani o'chiradi.
-- `printTasks()`: Barcha vazifalarni konsolga chiqaradi
 
------
-## 2.
-### Vazifa 1: Kirim va Chiqimlar Uchun Obyekt Strukturasini Yaratish
 
-- **Maqsad:** Xo'jalik kirim va chiqimlarini saqlash uchun obyekt yaratish.
-- **Ishlar:**
-    - `Expenses` nomli obyekt yaratish. Bu obyektning ichida `water`, `gas`, `electricity` kabi xususiyatlar bo'ladi, ularning boshlang'ich qiymatlari 0 ga teng.
-    - Har bir xarajat turiga oid metodlar qo'shiladi, bu metodlar orqali foydalanuvchi o'z xarajatlarini kirita olishi va o'chira olishi mumkin.
 
-**Misol:**
 
-javascript
-``
-```js
-let Expenses = {
-    water: 0,
-    gas: 0,
-    electricity: 0,
-    addExpense: function(type, amount) {
 
-    },
-    removeExpense: function(type, amount) {
+# Bonus
+1. Foydalanuvchi o'z ish kunining boshlanish va tugash vaqtini kiritadi.
+Siz bu ma'lumotlardan foydalangan holda u qancha vaqt ishlaganini
+(soat va daqiqalar ko'rinishida) hisoblaydigan funksiyani yozing.
+Agar ishning tugash vaqti boshlanish vaqtidan oldin bo'lsa,
+"Xato: tugash vaqti boshlanish vaqtidan oldin bo'lishi mumkin emas" matnini qaytaring.
+	Kirish ma'lumotlari:
+  Boshlanish va tugash vaqtlari formati: HH:MM
+	Misol:
+  console.log(calculateWorkingHours("09:00", "17:30")); // "Ish vaqti: 8 soat 30 daqiqa"
+  console.log(calculateWorkingHours("10:00", "09:00")); // "Xato: tugash vaqti boshlanish vaqtidan oldin bo'lishi mumkin emas"
 
-    },
-    printMonthlyReport = function() {
+2.Foydalanuvchi prompt orqali  bank ish kuni kiritadi (masalan, 60).
+Siz foydalanuvchi kiritgan bank ishkunidan kelib chiqib yilning
+qaysi oy va qaysi sanasida aytilgan kun kelishini hisoblovchi funksiya yozing.
+Bank ish kunida shanba va yakshanba dam olish kuni sifatida hisoblanmaydi.
 
-	};
+3. Berilgan ikkita JSON obyektida bir xil kalit-qiymat juftliklarini topadigan
+funksiyani yozing. Natijada umumiy qiymatlar bilan kalit-qiymat juftliklari
+yangi obyekt shaklida qaytarilsin. Ikkala obyektning tuzilmalari turli darajada
+ murakkab va ichma-ich bo'lishi mumkin.
+
+ const jsonData1 = {
+  user: {
+name: "Ali",
+age: 25,
+address: {
+  city: "Tashkent",
+  zip: "100000"
+}
+  },
+  active: true
 };
 
-```
+const jsonData2 = {
+  user: {
+name: "Ali",
+age: 30,
+    address: {
+      city: "Tashkent",
+      zip: "200000"
+    }
+  },
+  active: true
+};
 
-### Vazifa 2: Oylik Hisobotlarni Ko'rsatish
-
-- **Maqsad:** Har bir xarajat turining oylik umumiy summasini hisoblaydi va konsolga chiqaradi.
-- **Ishlar:**
-    - `Expenses` obyektiga `printMonthlyReport` metodini qo'shish.
-
-**Misol:**
-
-javascript
-
-```js
-    console.log(`Suv uchun oylik xarajat: $${this.water}`);
-    console.log(`Gaz uchun oylik xarajat: $${this.gas}`);
-    console.log(`Elektr energiyasi uchun oylik xarajat: $${this.electricity}`);
-```
-
-----
-## 3.
-### Harflar va Raqamlarni Hisoblash
-
-> Biror matn qabul qilib, unda nechta harf va raqam borligini hisoblaydigan funksiya yozing. Natijani obyekt sifatida qaytaring.
-
-Misol uchun:
-```js
-countAll("Hello World") ➞ { "HARFLAR":  10, "RAQAMLAR": 0 }
-countAll("H3ll0 Wor1d") ➞ { "HARFLAR":  7, "RAQAMLAR": 3 }
-countAll("149990") ➞ { "HARFLAR": 0, "RAQAMLAR": 6 }
-```
-----
-## 4.
-### Memorial Day uchun xarid qilish!
-
-Har bir narsa uchun qo'llaniladigan 6% soliqni hisobga olgan holda, sotib olingan mahsulotlar soniga ko'ra jami narxni hisoblovchi funksiya yarating. Misollar:
-
-```js
-checkout([
-  { desc: "kartoshka chiplari", prc: 2, qty: 2, taxable: false },
-  { desc: "gazlangan suv", prc: 3, qty: 2, taxable: false },
-  { desc: "qog'oz idishlar", prc: 5, qty: 1, taxable: true }
-]) ➞ 15.3
-```
-
-Bu funksiya, sotib olingan mahsulotlarning har birining miqdori va narxi ko'rsatilgan ro'yxatni qabul qiladi va ularning umumiy qiymatini hisoblaydi. Agar mahsulot soliqqa tortiladigan bo'lsa, uning narxiga 6% soliq qo'shiladi.
-----
-## 5.
-> Bir funksiya yarating, bu funksiya matnlar ro'yxatini qabul qilib, faqatgina ichida raqamlar bo'lgan matnlarni saqlagan yangi ro'yxatni qaytaradi. Agar raqamlar bo'lgan matnlar bo'lmasa, bo'sh ro'yxat qaytariladi. Misol uchun:
-
-```js
-
-numInStr(["1a", "a", "2b", "b"]) ➞ ["1a", "2b"]
-numInStr(["abc", "abc10"]) ➞ ["abc10"]
-numInStr(["abc", "ab10c", "a10bc", "bcd"]) ➞ ["ab10c", "a10bc"]
-numInStr(["this is a test", "test1"]) ➞ ["test1"]
-```
-
-
-
-
-## 6.
-
-Quyida keltirilgan JavaScript dasturida CRUD ("Create, Read, Update, Delete") amallarini bajaruvchi ma'lumotlar bazasini simulyatsiya qilish uchun murakkabroq vazifa taqdim etilgan.
-
-
-1. **Create (Yaratish)** funksiyasi:
-
-    - Yangi foydalanuvchi ma'lumotlarini qabul qilib, uning nomi bilan `studentsList` obyektiga qo'shing.
-    - Agar bu nom allaqachon mavjud bo'lsa, xatolik xabarini qaytaring.
-    - Aks holda, yangi foydalanuvchi qo'shilgandan so'ng, butun ro'yxatni qaytaring.
-2. **Read (O'qish)** funksiyasi:
-
-    - Foydalanuvchi nomi berilganda, u nom bilan `studentsList`da qidiruv o'tkazing.
-    - Agar foydalanuvchi topilsa, uning ma'lumotlarini qaytaring.
-    - Topilmasa, "Foydalanuvchi topilmadi" kabi xabar qaytaring.
-
-
-3. **Update (Yangilash)** funksiyasi:
-
-    - Foydalanuvchi nomi va yangilash kerak bo'lgan ma'lumotlar obyektini qabul qiladi.
-    - Agar foydalanuvchi mavjud bo'lsa, uning ma'lumotlarini yangilang va yangilangan ma'lumotlarni qaytaring.
-    - Foydalanuvchi topilmasa, xatolik xabarini qaytaring.
-4. **Delete (O'chirish)** funksiyasi:
-
-    - Berilgan nom bo'yicha foydalanuvchini `studentsList`dan o'chiring.
-    - O'chirish muvaffaqiyatli bo'lsa, "Foydalanuvchi o'chirildi" kabi xabar qaytaring.
-    - Foydalanuvchi topilmasa, "Foydalanuvchi topilmadi" kabi xabar qaytaring.
-
-
-==MAPdan foydalangan holatda ishlang ===
+console.log(findCommonPairs(jsonData1, jsonData2));
+/* Chiqish:
+{
+  user: {
+    name: "Ali"
+  },
+  active: true
+}
+*/

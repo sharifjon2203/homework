@@ -28,5 +28,29 @@ js variables, data types, operators
     --a
     a-=2
     console.log(a) natija qanday ?
-20) console.log( 45 > '55' || 34 === '34' || 'hello' ) 
+20) console.log( 45 > '55' || 34 === '34' || 'hello' )
 21) console.log( 0 || 34 != '34' || (33 == 1 && 34 > 4))
+
+
+
+Abdulfattoh Abduhakimov
+Abdulloh Sayfullayev
+Azizbek Mirzavaliyev
+Azizbek Xayrullayev
+Boxodir Nabijonov
+Dilshod O'rozov
+Diyor Ma'rufov
+Diyorbek Urozboev
+Faxriddin Maripov
+Isfandiyor Vohidov
+Jo'rabek Asatullayev
+Lutfiddin Zuxriddinov
+Muhammadaziz Yoqubov
+Muhammad Iso Ikromiddinov
+Murodxon Rustamov
+Ozodbek To'xtaqulov
+Sharifjon Minavarov
+Shodiyor Ergashev
+Umar Kimsanov Rahimjon
+Xojiakbar Ilhomjonov
+Yaxshigeldi Avezgeldiyev

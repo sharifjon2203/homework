@@ -1,32 +1,52 @@
-// const obj = {
-//   name: "ali",
-//   age: 11,
-//   isStudent: false,
-//   hobby: {
-//     coding: ["js", "python"],
-//     skills: {
-//       js: "advanced",
-//       py: "inter",
-//     },
-//   },
-// };
+// class Person {
+//   constructor(name, age) {
+//     this.name = name;
+//     this.age = age;
+//   }
 
-// const name = obj.name;
-// const age = obj.age;
+//   greet(message) {
+//     console.log(message);
+//   }
+// }
 
-// const { name: newName, age, isStudent } = obj;
+// class Student extends Person {
+//   constructor(name, age, univer) {
+//     super(name, age);
+//     this.univer = univer;
+//   }
 
-// console.log(newName, age, isStudent);
-// const obj2 = JSON.parse(JSON.stringify(obj));
+//   log() {
+//     this.greet(`Hello ${this.name}, ${this.univer}`);
+//   }
+// }
+// const luccy = new Person("Luccy", 22);
 
-// obj.name = "Shuhrat";
-// obj.hobby.skills.py = "advanced";
+// luccy.greet();
 
-// console.log("OBJ1 ", obj);
-// console.log("OBJ2 ", obj2);
+// const percey = new Person("Percey", 22);
 
-function a({ age = 33, name = "john" }) {
-  console.log(name, age);
+// percey.greet();
+
+// const student = new Student("Abduqodir", 21, "Ko'\cha");
+
+// student.log();
+
+class Person {
+  constructor(name) {
+    this.name = name;
+  }
+  set password(pass) {
+    this.pass = pass;
+  }
+  get password() {
+    return this.pass;
+  }
 }
+const person = new Person("ALI");
+person.password = "qwer12345";
 
-a({});
+console.log(person.password);
+
+person.password = "asdf qwer";
+
+console.log(person.password);
