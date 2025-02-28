@@ -1,52 +1,79 @@
-// class Person {
-//   constructor(name, age) {
-//     this.name = name;
-//     this.age = age;
-//   }
+// class A {}
 
-//   greet(message) {
-//     console.log(message);
+// class B extends A {}
+
+// class C extends B {}
+
+// console.log(new B() instanceof C);
+
+// console.log([1] instanceof Array);
+
+// const str = "asasamsdma";
+// const str2 = new String("asasamsdma");
+
+// console.log(typeof str2);
+// console.log(str2 instanceof String);
+
+// console.log({} instanceof Object);
+
+// const a = 12;
+// a.toLowerCase();
+
+// const arr = new Array(
+//   1000000000000000000000000000000000000000000000000000000000,
+// );
+
+// const url = new URL(
+//   "https://www.google.com/search?q=toshkent+metro&sca_esv=8a26c899bd46e931&source=hp&ei=2o3BZ4nXEriUxc8PwPSwiQs&iflsig=ACkRmUkAAAAAZ8Gb6kntsaD5LmVCkGFfmemu-a0ZPLrg&oq=toshkent&gs_lp=Egdnd3Mtd2l6Igh0b3Noa2VudCoCCAAyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAuGIAEMgUQLhiABDIFEAAYgAQyBRAuGIAEMgUQABiABDIFEC4YgAQyBRAAGIAESKZCUM0IWO47cAh4AJABAJgByAGgAYQQqgEGMC4xMS4xuAEDyAEA-AEBmAIQoALdEKgCAMICCxAuGIAEGNEDGMcBwgILEC4YgAQYxwEYrwHCAgcQABiABBgKwgIHEC4YgAQYCsICDRAuGIAEGMcBGAoYrwHCAgYQABgKGB7CAgUQABjvBcICCBAAGIAEGKIEmAMB8QVmFXDSk8B1IJIHBjQuMTEuMaAHkpgB&sclient=gws-wiz",
+// );
+// console.log(url);
+//
+//2
+
+/*
+const result = setTimeout(
+  (a) => {
+    console.log(a);
+  },
+  10000,
+  "HELLO",
+);
+
+const idx = setInterval(() => {
+  console.log(new Date());
+}, 1000);
+
+setTimeout(() => {
+  clearTimeout(result);
+  clearInterval(idx);
+}, 5000);
+
+*/
+
+// throw new Error("XATOLIK");
+//
+//
+// class MyError extends Error {
+//   constructor(message) {
+//     super(message);
 //   }
 // }
+// console.log(new MyError("XATO") instanceof Error);
 
-// class Student extends Person {
-//   constructor(name, age, univer) {
-//     super(name, age);
-//     this.univer = univer;
-//   }
+// throw new Error("XATOLIK");
 
-//   log() {
-//     this.greet(`Hello ${this.name}, ${this.univer}`);
-//   }
+// try {
+//   // process.exit(1);
+//   // throw new Error("XATOLIK");
+// } catch (e) {
+//   console.log(e.stack); //message , code, stack
+// } finally {
+//   console.log("FINNALLY");
 // }
-// const luccy = new Person("Luccy", 22);
 
-// luccy.greet();
+process.stdout.write("salom\n");
 
-// const percey = new Person("Percey", 22);
-
-// percey.greet();
-
-// const student = new Student("Abduqodir", 21, "Ko'\cha");
-
-// student.log();
-
-class Person {
-  constructor(name) {
-    this.name = name;
-  }
-  set password(pass) {
-    this.pass = pass;
-  }
-  get password() {
-    return this.pass;
-  }
-}
-const person = new Person("ALI");
-person.password = "qwer12345";
-
-console.log(person.password);
-
-person.password = "asdf qwer";
-
-console.log(person.password);
+process.stdin.on("data", (data) => {
+  console.log(`You typed ${data.toString()}`);
+  process.exit();
+});
