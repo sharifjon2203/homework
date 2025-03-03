@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seach app</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="contaniner">
+    <header data-header>
+      <nav class="header__nav">
+        <div class="header__left-content">
+          <a href="#0">Home</a>
+        </div>
+        <ul class="header__list">
+          <li>
+            <a href="#about-us" data-link>About us</a>
+          </li>
+          <li>
+            <a href="#flavours" data-link>The flavours</a>
+          </li>
+          <li>
+            <a href="#get-in-touch" data-link>Get in touch</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <div class="main-container">
+        <div class="search-container">
+          <form action="" id="search-form">
+            <label for="search-input">Seach</label>
+            <input type="text" id="search-input" name="search-data" placeholder="Search">
+            <input type="submit" value="search">
+          </form>
+          <div>
+            <h1>RESULT</h1>
+            <ul id="search-result">
+
+            </ul>
+          </div>
+        </div>
+
+        <div class="todo-container">
+          <form action="" id="todo-form">
+            <label for="todo-input">TODO</label>
+            <input type="text" id="todo-input" name="todo-data" placeholder="Search">
+            <input type="submit" value="add">
+          </form>
+        </div>
+
+        <div class="list-element">
+          <ul id="todo-list">
+          </ul>
+
+        </div>
+
+      </div>
+    </main>
+
+  </div>
+
+  <script src="./main.js"></script>
+</body>
+
+</html>
