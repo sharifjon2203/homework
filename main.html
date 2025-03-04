@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+
+  <form action="">
+
+    <input type="text" name="name" id="name" required placeholder="name">
+    <br>
+
+    <input type="email" name="email" id="email" required placeholder="email">
+    <br>
+    <input type="password" name="password" id="password" required placeholder="password">
+
+    <input type="submit" value="Send">
+    <input type="reset">
+  </form>
+
+
+
+
+  <br><br>
+
+
+  <input type="text" name="show-input" id="show-input">
+  <button id="show">SHow</button>
+
+
+  <div id="show-detail">
+
+  </div>
+
+  <script>
+    const form = document.querySelector("form")
+    const show = document.querySelector("#show")
+    const showInput = document.querySelector("#show-input")
+    const showDetail = document.querySelector("#show-detail")
+
+
+
+
+    form.addEventListener("submit", function event(e) {
+      e.preventDefault()
+
+      const data = {}
+
+      const formData = new FormData(this);
+      for (const [key, val] of formData) {
+        data[key] = val
+      }
+
+      localStorage.clear()
+
+      localStorage.setItem(data.name, JSON.stringify(data));
+
+    })
+
+    show.addEventListener("click", function event(e) {
+      const value = showInput.value
+
+      const userData = JSON.parse(localStorage.getItem(value))
+
+      console.log(userData)
+
+      showDetail.innerHTML = `
+      <ul>
+          <li> name = > ${userData.name}</li>
+          <li> email = > ${userData.email}</li>
+          <li> password = > ${userData.password}</li>
+        </ul>
+       `
+
+    })
+
+
+
+
+
+
+
+  </script>
+
+</body>
+
+</html>
