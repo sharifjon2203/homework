@@ -1,81 +1,224 @@
-const addTaskBtn = document.querySelector("#add-task_btn");
-const taskInputElement = document.querySelector("#task-input");
-const taskListContainer = document.querySelector(".task-list_container");
+// const promise = new Promise((resolve, reject) => {
+// 	const result = Math.round(Math.random() * 10);
 
-const todoList = [
-	{
-		title: "To study React fundamentals",
-		id: 12,
-		completed: false,
-	},
-	{
-		title: "To study javascript fundamentals",
-		id: 11,
-		completed: false,
-	},
-	{
-		title: "To study nodejs fundamentals",
-		id: 14,
-		completed: false,
-	},
-];
+// 	if (result >= 5) {
+// 		resolve("Siz yutdingiz:)!");
+// 	} else {
+// 		reject("Siz yuta olmadiz!");
+// 	}
+// });
 
-function render() {
-	taskListContainer.innerHTML = "";
-	for (const todo of todoList) {
-		const divContainer = document.createElement("div");
-		const divTitle = document.createElement("div");
-		divTitle.textContent = todo.title;
+// promise
+// 	.then((result) => {
+// 		console.log(result);
+// 	})
+// 	.catch((error) => {
+// 		console.error(error);
+// 	});
 
-		const taskIconContainerDiv = document.createElement("div");
-		const taskIconDiv = document.createElement("div");
-		taskIconDiv.classList.add("task-icon");
-		const doneBtn = document.createElement("button");
-		const doneImg = document.createElement("img");
-		doneImg.src = "./images/true.png";
-		doneBtn.appendChild(doneImg);
-		doneImg.setAttribute("id", todo.id);
-		doneBtn.addEventListener("click", function event(e) {
-			console.log(e.target.id);
-		});
-		const deleteBtn = document.createElement("button");
-		const deleteImg = document.createElement("img");
-		deleteImg.src = "./images/delete.png";
-		deleteBtn.appendChild(deleteImg);
-		deleteImg.setAttribute("id", todo.id);
+// const promise = (result, delay) => {
+// 	return new Promise((resolve, reject) => {
+// 		setTimeout(() => {
+// 			if (result) {
+// 				resolve("Siz yutdingiz!");
+// 			} else {
+// 				reject("uzur siz yuta olmadiz!");
+// 			}
+// 		}, delay);
+// 	});
+// };
 
-		deleteBtn.addEventListener("click", function event(e) {
-			const targetId = e.target.id;
-			const index = todoList.findIndex((todo) => todo.id === +targetId);
+// promise(false, 3000)
+// 	.then((data) => {
+// 		console.log(data);
+// 	})
+// 	.catch((err) => {
+// 		console.error(err);
+// 	});
 
-			todoList.splice(index, 1);
-			render();
-		});
-		taskIconDiv.appendChild(doneBtn);
-		taskIconDiv.appendChild(deleteBtn);
+// console.log("uraaaa");
 
-		taskIconContainerDiv.appendChild(taskIconDiv);
+// function add(a, b) {
+// 	return a + b;
+// }
 
-		divContainer.appendChild(divTitle);
-		divContainer.appendChild(taskIconContainerDiv);
+// console.log(add(1000, 22000202020));
 
-		taskListContainer.append(divContainer);
-	}
-}
+// console.log(1);
+// setTimeout(() => {
+// 	console.log(3);
+// }, 0);
 
-render();
+// const promise = new Promise((resolve, reject) => {
+// 	console.log(4);
+// 	resolve(5);
+// });
 
-addTaskBtn.addEventListener("click", function a(e) {
-	const id = todoList.length + 1;
-	const todo = {
-		title: taskInputElement.value,
-		id,
-		completed: false,
-	};
+// promise
+// 	.then((data) => {
+// 		console.log(data);
+// 	})
+// 	.catch((error) => {
+// 		console.log(error);
+// 	});
 
-	todoList.push(todo);
+// console.log(2);
 
-	render();
+// const promise = new Promise((resolve, reject) => {
+// 	resolve(1);
+// });
 
-	taskInputElement.value = "";
-});
+// promise
+// 	.then((data) => {
+// 		console.log(`1 ${data}`);
+// 		return data + 1;
+// 	})
+// 	.then((data) => {
+// 		console.log(`2 ${data}`);
+
+// 		return data / 2;
+// 	})
+// 	.then((data) => {
+// 		console.log(`3 ${data}`);
+// 	});
+
+// console.time("Promise");
+
+// const promise1 = Promise.resolve(1);
+
+// const promise2 = Promise.reject(2);
+
+// const promise3 = (delay) => {
+// 	return new Promise((resolve, reject) => {
+// 		setTimeout(() => {
+// 			resolve(3);
+// 		}, delay);
+// 	});
+// };
+
+// const promise4 = (delay) => {
+// 	return new Promise((resolve, reject) => {
+// 		setTimeout(() => {
+// 			reject(4);
+// 		}, delay);
+// 	});
+// };
+
+// const result = Promise.all([promise1, promise2, promise3(100), promise4(4000)]);
+
+// result
+// 	.then((data) => {
+// 		console.log(data);
+// 	})
+// 	.catch((err) => {
+// 		console.error(err);
+// 	});
+
+// console.timeEnd("Promise");
+
+// console.time("Promise");
+
+// const promise1 = Promise.resolve(1);
+
+// const promise2 = Promise.reject(2);
+
+// const promise3 = (delay) => {
+// 	return new Promise((resolve, reject) => {
+// 		setTimeout(() => {
+// 			resolve(3);
+// 		}, delay);
+// 	});
+// };
+
+// const promise4 = (delay) => {
+// 	return new Promise((resolve, reject) => {
+// 		setTimeout(() => {
+// 			reject(4);
+// 		}, delay);
+// 	});
+// };
+
+// const result = Promise.allSettled([
+// 	promise1,
+// 	promise2,
+// 	promise3(100),
+// 	promise4(4000),
+// ]);
+
+// result
+// 	.then((data) => {
+// 		console.log(data);
+// 	})
+// 	.catch((err) => {
+// 		console.error("xato: ", err);
+// 	});
+
+// console.timeEnd("Promise");
+
+// console.time("Promise");
+
+// // const promise1 = Promise.resolve(1);
+
+// const promise2 = Promise.reject(2);
+
+// const promise3 = (delay) => {
+// 	return new Promise((resolve, reject) => {
+// 		setTimeout(() => {
+// 			resolve(3);
+// 		}, delay);
+// 	});
+// };
+
+// const promise4 = (delay) => {
+// 	return new Promise((resolve, reject) => {
+// 		setTimeout(() => {
+// 			reject(4);
+// 		}, delay);
+// 	});
+// };
+
+// const result = Promise.any([promise2, promise3(100), promise4(4000)]);
+// (async () => {
+// 	const data = await result;
+
+// 	console.log(data);
+// })();
+
+// console.timeEnd("Promise");
+
+// const promise = (delay) => {
+// 	return new Promise((resolve, reject) => {
+// 		setTimeout(() => {
+// 			reject(new Error("XATOLIK"));
+// 		}, delay);
+// 	});
+// };
+// (async () => {
+// 	try {
+// 		const result = await promise();
+
+// 		console.log(result);
+// 	} catch (error) {
+// 		console.error(error);
+// 	}
+// })();
+
+// async function fetchData(url) {
+// 	try {
+// 		const response = await fetch(url);
+
+// 		if (!response.ok) {
+// 			throw new Error("rejected response");
+// 		}
+
+// 		const data = await response.json();
+
+// 		console.log(data);
+// 	} catch (error) {
+// 		throw new Error(error);
+// 	}
+// }
+
+// fetchData(
+// 	"https://api.thedogapi.com/v1/images/search?size=med&mime_types=jpg&format=json&has_breeds=true&order=RANDOM&page=0&limit=1",
+// );
