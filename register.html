@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!-- 
+  <button onclick="redirect()">
+    Redirect to GFG
+  </button> -->
+
+
+
+  <!-- <input type="range" name="" id="myRange"> -->
+
+  <input id="pi_input" type="range" step="any" />
+  <p>Value: <output id="value"></output></p>
+
+  <script>
+    const value = document.querySelector("#value");
+    const input = document.querySelector("#pi_input");
+    value.textContent = input.value;
+    input.addEventListener("input", (event) => {
+      value.textContent = event.target.value;
+    });
+
+    // document.getElementById("myRange").value = "100";
+
+    // function redirect() {
+    //   window.location.href =
+    //     "http://localhost:5500/login.html";
+    // }
+  </script>
+
+</body>
+
+</html>
