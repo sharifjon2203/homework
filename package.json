@@ -1,0 +1,22 @@
+{
+  "name": "result_n20",
+  "version": "1.0.0",
+  "description": "js variables, data types, operators",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "node main.js",
+    "start:dev": "nodemon main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nt-backend-nodejs/bootcamp_result_nodejs_n20.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nt-backend-nodejs/bootcamp_result_nodejs_n20/issues"
+  },
+  "homepage": "https://github.com/nt-backend-nodejs/bootcamp_result_nodejs_n20#readme"
+}

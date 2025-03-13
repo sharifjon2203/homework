@@ -1,3 +1,3 @@
-const add = (a, b) => a + b;
+export const add = (a, b) => a + b;
 
-module.exports = add;
+globalThis.ism = "xamidullo";

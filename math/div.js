@@ -1,3 +1,2 @@
-const div = (a, b) => a / b;
-
-module.exports = div;
+export const div = (a, b) => a / b;
+export const divPro = (a, b) => a / b;
