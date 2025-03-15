@@ -1,37 +1,43 @@
-import * as math from "./math/index.js";
+// import { sort, filter } from "./src/index.js";
 
-console.log(globalThis.ism);
+// const command = process.argv[2];
 
-// import os from "node:os";
-
-// console.log(os.cpus().length);
 /*
-
-
-console.log(process.argv);
-
-const a = +process.argv[2];
-const b = +process.argv[3];
-
-console.log(a + b);
-*/
-/*
-console.log(math);
-
-import * as math from "./math/index.js";
-
-const response = await fetch("https://www.youtube.com/");
-
-const result = await response.text();
-console.log(result);
+if (command === "filter") {
+  filter(process.argv[3], process.argv[4]);
+} else if (command === "sort") {
+  sort(process.argv[3]);
+}
 
 */
 
-// console.log(math);
+/*
+switch (command) {
+  case "filter":
+    filter(process.argv[3], process.argv[4]);
+    break;
+  case "sort":
+    sort(process.argv[3]);
+    break;
+}
 
-// import * as math from "./math/index.js";
+*/
 
-// const response = await fetch("https://www.youtube.com/");
+const command = process.argv[2];
 
-// const result = await response.text();
-// console.log(result);
+const commands = {
+  sort(str = "1") {
+    console.log(
+      str
+        .split(",")
+        .map((item) => +item)
+        .sort((a, b) => b - a),
+    );
+  },
+  filter() {},
+  ascii() {},
+  uppercase() {},
+  uppercase() {},
+};
+
+commands[command](process.argv[3]);

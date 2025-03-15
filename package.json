@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "start": "node main.js",
-    "start:dev": "nodemon main.js"
+    "start:dev": "node --watch main.js"
   },
   "repository": {
     "type": "git",
