@@ -59,8 +59,7 @@ class App {
       if (method === req.method) {
         const regex = new RegExp(`^${path.replace(":id", "(\\w+)")}$`);
         // http://localhost:400/user/:id
-        const match = req.path.split("/")[1].match(regex);
-
+        const match = req.path.match(regex);
         if (match) {
           req.params = { id: match[1] };
           matchingHandler = handler;
@@ -92,5 +91,3 @@ class App {
     http.createServer((req, res) => this.handle(req, res)).listen(port, cb);
   }
 }
-
-export default App;
