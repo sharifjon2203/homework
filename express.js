@@ -57,10 +57,12 @@ class App {
     for (const [key, handler] of this.routes) {
       const [method, path] = key.split(":");
       if (method === req.method) {
-        let match = +req.path.split("/")[req.path.split("/").length - 1];
+        const regex = new RegExp(`^${path.replace(":id", "(\\w+)")}$`);
+        // http://localhost:400/user/:id
+        const match = req.path.split("/")[1].match(regex);
 
         if (match) {
-          req.params = { id: match };
+          req.params = { id: match[1] };
           matchingHandler = handler;
           break;
         }

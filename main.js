@@ -1,5 +1,6 @@
 import http, { createServer } from "node:http";
 import url from "node:url";
+import querystring from "node:querystring";
 
 const products = [
   {
@@ -19,21 +20,39 @@ const products = [
 const PORT = 3000;
 const server = createServer((request, response) => {
   const { method } = request;
-  const parsedUrl = url.parse(request.url, true);
+  // const parsedUrl = url.parse(request.url, true);
+  const [, moduleName, id] = url.parse(request.url, true).pathname.split("/");
 
-  if (method === "GET" && parsedUrl.pathname === "/products") {
-    response.writeHead(200, "Content-type", "application/json");
+  console.log({
+    parsedUrl,
+    method,
+  });
+
+  if (method === "GET" && moduleName === "/") {
+    response.writeHead(200, { "Content-type": "text/html" });
+    response.write(`
+                 <h1>Home</h1>
+                 <p>This is the home page</p>
+              `);
+    response.end();
+  } else if (method === "GET" && moduleName === "products") {
+    // response.writeHead(200, "Content-type", "application/json");
+    response.writeHead(200, { "Content-type": "application/json" });
     response.write(JSON.stringify(products));
     response.end();
-  } else if (method === "POST" && parsedUrl.pathname === "/products") {
+  } else if (method === "POST" && moduleName === "products") {
     let body = "";
 
-    request.on("data", (chunk) => {
-      body += chunk;
+    request.on("data", (chunk = "") => {
+      body += chunk.toString();
     });
 
     request.on("end", () => {
-      const data = JSON.parse(body);
+      // const data = JSON.parse(body);
+      const data = querystring.parse(body);
+
+      console.log({ data });
+
       const newProduct = {
         id: products.length,
         ...data,
@@ -45,11 +64,53 @@ const server = createServer((request, response) => {
       response.write(JSON.stringify(newProduct));
       response.end();
     });
-
     return;
+  } else if (method === "PUT") {
+    if (moduleName === "products") {
+      const params = parsedUrl.path.split("/");
+
+      const id = Number.parseInt(params[params.length - 1]);
+
+      let body = "";
+      request.on("data", (ch) => {
+        body += ch;
+      });
+
+      request.on("end", () => {
+        const data = querystring.parse(body);
+
+        const index = products.findIndex((product) => product.id === id);
+
+        console.log({
+          data,
+          index,
+          id,
+          params,
+        });
+        if (index < 0) {
+          response.writeHead(404, "Content-type", "text/plain");
+          response.write("Product Not found! ");
+          response.end("end");
+          return;
+        }
+
+        const product = products[index];
+        const newProduct = {
+          ...product,
+          ...data,
+        };
+
+        products.splice(index, 1, newProduct);
+
+        response.writeHead(200, "Content-type", "text/plain");
+        response.write("Updates");
+        response.end("end");
+      });
+    }
   } else {
     response.writeHead(404, "Content-type", "text/plain");
     response.write("Not found! ");
+    response.write("salom dunyo");
     response.end();
   }
 });
