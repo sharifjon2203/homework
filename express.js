@@ -91,3 +91,5 @@ class App {
     http.createServer((req, res) => this.handle(req, res)).listen(port, cb);
   }
 }
+
+export default App;
