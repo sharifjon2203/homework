@@ -2,11 +2,11 @@
   "name": "result_n20",
   "version": "1.0.0",
   "description": "js variables, data types, operators",
-  "main": "main.js",
-  "type": "module",
+  "main": "server.js",
   "scripts": {
-    "start": "node main.js",
-    "start:dev": "node --watch main.js"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "start:dev": "node  --watch server.js"
   },
   "repository": {
     "type": "git",
@@ -15,19 +15,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "type": "module",
   "bugs": {
     "url": "https://github.com/nt-backend-nodejs/bootcamp_result_nodejs_n20/issues"
   },
   "homepage": "https://github.com/nt-backend-nodejs/bootcamp_result_nodejs_n20#readme",
   "dependencies": {
-    "express": "^4.21.2",
-    "sqlite3": "^5.1.7",
-    "uuid": "^11.1.0",
-    "ws": "^8.18.1"
-  },
-  "pnpm": {
-    "ignoredBuiltDependencies": [
-      "sqlite3"
-    ]
+    "express": "^4.21.2"
   }
 }

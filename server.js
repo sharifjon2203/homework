@@ -1,115 +1,56 @@
-import http from "node:http";
-import { parse } from "node:url";
-import { v4 } from "uuid";
+import express from "express";
 
-const users = [
-  {
-    id: 1,
-    name: "john",
-    age: 22,
-    isStudent: true,
-  },
-];
+// const application = express();
+const app = express();
 
 const PORT = 4000;
-const server = http.createServer(async (req, res) => {
-  const { method, url } = req;
-  const { pathname } = parse(url, true);
-  let id = "";
 
-  if (["PUT", "DELETE", "PATCH", "GET"].includes(method)) {
-    const [, , userId] = pathname.split("/");
-    id = userId;
-  }
+const products = [
+  { id: 1, name: "Product 1", price: 100 },
+  { id: 2, name: "Product 2", price: 200 },
+  { id: 3, name: "Product 3", price: 300 },
+  { id: 4, name: "Product 4", price: 400 },
+];
 
-  if (["PUT", "PATCH", "POST"].includes(method)) {
-    const [, , userId] = pathname.split("/");
-    id = userId;
-  }
+// http://localhost:3000 -> GET
+// req = > request
+// res => response
 
-  if (method === "GET") {
-    ///get all
-    if (pathname.split("/").length == 2) {
-      res.writeHead(200, { "content-type": "application/json" });
-      res.write(JSON.stringify(users));
-      res.end();
-    } else {
-      // get one by id
-      res.writeHead(200, { "content-type": "application/json" });
-      const user = users.find((user) => user.id == id);
-      res.write(JSON.stringify(user ? user : "not found"));
-      res.end();
-    }
-  }
+app.get("/", (request, response) => {
+  const { path, params, url, method, headers } = request;
+  console.log({
+    path,
+    params,
+    url,
+    method,
+    headers,
+  });
 
-  if (method === "POST" && pathname === "/users") {
-    let body = await parseBody(req);
-    const id = v4();
-    const data = {
-      id,
-      ...body,
-    };
-    users.push(data);
-    res.writeHead(201, { "content-type": "application/json" });
-    res.write(JSON.stringify(data));
-    res.end();
-  }
-
-  if (method === "PUT") {
-    let body = await parseBody(req);
-    const userIndex = users.findIndex((user) => user.id == id);
-
-    if (userIndex < 0) {
-      res.writeHead(404, { "content-type": "text/plain" });
-      res.write("Not found");
-      res.end();
-      return;
-    }
-
-    const user = users[userIndex];
-
-    const updatedUser = {
-      ...user,
-      ...body,
-    };
-
-    users.splice(userIndex, 1, updatedUser);
-
-    res.writeHead(201, { "content-type": "application/json" });
-    res.write(JSON.stringify(updatedUser));
-    res.end();
-  }
-  if (method === "DELETE") {
-    const userIndex = users.findIndex((user) => user.id == id);
-    if (userIndex < 0) {
-      res.writeHead(404, { "content-type": "text/plain" });
-      res.write("Not found");
-      res.end();
-      return;
-    }
-
-    users.splice(userIndex, 1);
-    res.writeHead(200, { "content-type": "text/plain" });
-    res.write("seccussfully deleted");
-    res.end();
-  }
+  response.send("Hello from Express.js");
 });
 
-server.listen(PORT, () => {
+// http://localhost:3000/products -> GET -> JSON
+// Map -> set routes
+// `GET:/products`  ->  (req, res)=> {}
+
+// get all products
+app.get("/products", (req, res) => {
+  res.json(products);
+});
+
+// get product by id
+// http://localhost:3000/products/1 -> GET -> JSON
+// http://localhost:3000/products/2 -> GET -> JSON
+app.get("/products/:id", (req, res) => {
+  const params = req.params;
+  console.log({ params });
+
+  const productId = parseInt(params.id);
+  const product = products.find((product) => product.id === productId);
+
+  res.json(product);
+});
+
+app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
-
-const parseBody = (req) => {
-  return new Promise((resolve, reject) => {
-    let body = "";
-    req.on("data", (chunk) => (body += chunk));
-    req.on("end", () => {
-      try {
-        resolve(JSON.parse(body));
-      } catch (err) {
-        reject(err);
-      }
-    });
-    req.on("error", reject);
-  });
-};
