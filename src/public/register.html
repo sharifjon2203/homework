@@ -29,23 +29,23 @@
 
 
 
-    // const formElement = document.querySelector('form');
+    const formElement = document.querySelector('form');
 
-    // formElement.addEventListener('submit', async (e) => {
-    //   e.preventDefault();
-    //   const formData = new FormData(formElement);
+    formElement.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      const formData = new FormData(formElement);
 
-    //   console.log(formData);
-    //   const response = await fetch('http://localhost:4000/register', {
-    //     method: 'POST',
-    //     body: JSON.stringify(Object.fromEntries(formData)),
-    //     headers: {
-    //       'Content-Type': 'application/json'
-    //     }
-    //   });
-    //   const body = await response.text();
-    //   console.log(body);
-    // });
+      console.log(formData);
+      const response = await fetch('http://localhost:4000/register', {
+        method: 'POST',
+        body: JSON.stringify(Object.fromEntries(formData)),
+        headers: {
+          'Content-Type': 'application/json'
+        }
+      });
+      const body = await response.text();
+      console.log(body);
+    });
 
 
 
