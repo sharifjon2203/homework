@@ -1,12 +1,18 @@
 import express from "express";
 import { v4 } from "uuid";
+import path from "node:path";
+
 import { User } from "./entities/index.js";
 import { readUsers, writeUsers } from "./libs/index.js";
+
 const app = express();
 
 const PORT = 4000;
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+
+const userList = [];
 
 //custom middleware
 app.use((req, res, next) => {
@@ -16,33 +22,51 @@ app.use((req, res, next) => {
 	console.log(`Request took ${end - start}ms`);
 });
 
-//User Create
-app.post("/users", async (req, res, next) => {
+app.get("/", (req, res) => {
+	const homePageFilePath = path.join(
+		import.meta.dirname,
+		"public",
+		"index.html",
+	);
+	res.sendFile(homePageFilePath);
+});
+
+app.get("/register", (req, res) => {
+	const homePageFilePath = path.join(
+		import.meta.dirname,
+		"public",
+		"register.html",
+	);
+	res.sendFile(homePageFilePath);
+});
+
+app.post("/register", async (req, res, next) => {
 	try {
 		const body = req.body;
-		const user = new User(
-			body.firstName,
-			body.lastName,
-			body.email,
-			body.password,
-			body.phoneNumber,
-			body.address,
-		);
-		user.id = v4();
-		const users = await readUsers();
-		users.push(user);
-		await writeUsers(users);
+		if (!body.name || !body.email || !body.password) {
+			throw new Error("Please provide all required fields");
+		}
+		body.id = v4();
+		userList.push(body);
 
-		res.json(user);
+		res.send("User registered successfully");
 	} catch (error) {
 		next(error);
 	}
 });
 
-app.get("/users", async (req, res, next) => {
+app.get("/login", (req, res) => {
+	const homePageFilePath = path.join(
+		import.meta.dirname,
+		"public",
+		"login.html",
+	);
+	res.sendFile(homePageFilePath);
+});
+
+app.get("/users", (req, res, next) => {
 	try {
-		const users = await readUsers();
-		res.json(users);
+		res.json(userList);
 	} catch (error) {
 		next(error);
 	}
