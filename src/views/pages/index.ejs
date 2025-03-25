@@ -1,54 +1,89 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="./static/css/index.css" />
-  <title>
-    <%= title %>
-  </title>
+  <%- include('../partials/head'); %>
 </head>
 
-<body>
-  <button id="dark">Dark</button>
-  <button id="light">Light</button>
-  <h1>
-    <%= page %>
-  </h1>
-  <a href="/auth/login">Login</a>
-  <!--  http://localhost:4000/login method get -->
-  <a href="/auth/register">Register</a>
+<body class="container">
 
-  <!-- dark light -->
+  <header>
+    <%- include('../partials/header'); %>
+  </header>
 
-  <script>
-    const theme = localStorage.getItem("theme");
+  <main>
+    <form class="container-sm  d-flex justify-content-center" action="/todo" method="post">
 
-    if (theme === "dark") {
-      document.body.style.backgroundColor = "black";
-      document.body.style.color = "white";
-    } else {
-      document.body.style.backgroundColor = "white";
-      document.body.style.color = "black";
-    }
+      <div class="d-flex gap-2  w-75 p-3">
 
-    const dark = document.getElementById("dark");
-    const light = document.getElementById("light");
+        <input type="text" class="form-control" id="inputTodo" aria-describedby="todoHelp" name="title">
 
-    dark.addEventListener("click", () => {
-      ///set locl storage
-      localStorage.setItem("theme", "dark");
-      document.body.style.backgroundColor = "black";
-      document.body.style.color = "white";
-    });
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
 
-    light.addEventListener("click", () => {
-      localStorage.setItem("theme", "light");
-      document.body.style.backgroundColor = "white";
-      document.body.style.color = "black";
-    });
-  </script>
+    </form>
+
+    <div class="container">
+      <h2>Tasks to do - <span id="todo_count">
+          <%= todoList.length %>
+        </span></h2>
+      <div class="list-group">
+        <ul class="list-group list-group-flush " style="width: 40rem; margin: 0 auto;">
+
+          <%if ( typeof todoList !="undefined" ? todoList : [] ) { %>
+            <% todoList.forEach(todo=> { %>
+              <li class="list-group-item d-flex justify-content-between">
+                <p>
+                  <%= todo.title %>
+                </p>
+                <div>
+                  <button type="button" class="btn btn-primary edit-btn" id="<%= todo.id %>">
+                    edit
+                  </button>
+                  <button type="button" class="btn btn-success done-btn" id="<%= todo.id %>">
+                    done
+                  </button>
+                  <button type="button" class="btn btn-danger del-btn" id="<%= todo.id %>">
+                    delete
+                  </button>
+                </div>
+              </li>
+              <% }) %>
+                <% } else { %>
+                  <p>No products available</p>
+                  <% } %>
+
+        </ul>
+      </div>
+    </div>
+
+    <div class="container ">
+      <h2>Done - <span id="done-todo_count">
+          <%= doneTodoList.length %>
+        </span></h2>
+      <ul class="list-group list-group-flush " style="width: 40rem; margin: 0 auto;">
+        <% doneTodoList.forEach(todo=> { %>
+          <li class="list-group-item d-flex justify-content-between">
+            <del>
+              <%= todo.title %>
+            </del>
+          </li>
+          <% }) %>
+
+
+      </ul>
+    </div>
+  </main>
+
+  <footer class="fixed-bottom">
+    <%- include('../partials/footer'); %>
+  </footer>
+
+
+  <script src="/js/edit.js"></script>
+  <script src="/js/done.js"></script>
+  <script src="/js/del.js"></script>
+
 </body>
 
 </html>
