@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <%- include("../partials/head.ejs"); %>
+</head>
+
+<body>
+  <div class="float-right">
+
+    <a href="/auth/login">Login</a>
+    <!--  http://localhost:4000/login method get -->
+    <a href="/auth/register">Register</a>
+  </div>
+
+  <button id="dark">Dark</button>
+  <button id="light">Light</button>
+  <h1>
+    <%= title %>
+  </h1>
+
+  <main class="container">
+    <h1>
+      <%= title %>
+    </h1>
+    <span>
+      <%= published %>
+    </span>
+    <p>
+      <%=content %>
+    </p>
+  </main>
+
+
+
+</body>
+
+</html>

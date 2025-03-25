@@ -2,11 +2,11 @@ import { Router } from "express";
 import path from "node:path";
 import { v4 } from "uuid";
 import {
-	getLoginController,
-	getProfileController,
-	getRegisterController,
-	postLoginController,
-	postRegisterController,
+  getLoginController,
+  getProfileController,
+  getRegisterController,
+  postLoginController,
+  postRegisterController,
 } from "../controllers/index.js";
 
 const router = Router();
