@@ -6,7 +6,9 @@
 </head>
 
 <body class="container">
-
+  <h1 class="text-center">
+    <%= title %>
+  </h1>
   <header>
     <%- include('../partials/header'); %>
   </header>
@@ -35,6 +37,8 @@
   <script>
     const form = document.querySelector("form")
     const updateTodo = document.querySelector("#updateTodo")
+    // const updateTodo = document.querySelector("#updateTodo").value;
+
 
     form.addEventListener("submit", (e) => {
       e.preventDefault()
@@ -45,14 +49,17 @@
       const formData = new FormData(form)
 
 
-
+      console.log(updateTodo.value)
       const data = JSON.stringify({
         title: updateTodo.value
       })
       console.log(data)
-      // console.log(`http://localhost:4000/todo/${id}`)
-      fetch(`http://localhost:4000/todo/${id}`, {
-        method: "PUT", body: data
+      fetch(`http://localhost:4000/todo/edit/${id}`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: data
       }).then(data => {
         if (!data.ok) {
           alert("data not updated")

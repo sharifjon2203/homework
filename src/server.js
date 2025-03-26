@@ -3,7 +3,7 @@ import { join } from "node:path";
 import { todoRouter } from "./routes/index.js";
 import { todoList, doneTodoList } from "./controllers/index.js";
 
-const PORT = process.env.PORT || 4000;
+const PORT = process.env.PORT ? process.env.PORT : 4000;
 
 const app = express();
 

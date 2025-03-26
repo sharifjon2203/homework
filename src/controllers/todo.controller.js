@@ -10,11 +10,12 @@ export const todoController = {
       const body = req.body;
       body.id = v4();
       todoList.push(body);
-      res.render("pages/index", {
-        title: "Todo page",
-        todoList,
-        doneTodoList,
-      });
+      // res.render("pages/index", {
+      //   title: "Todo page",
+      //   todoList,
+      //   doneTodoList,
+      // });
+      res.redirect("/")
     } catch (error) {
       next(error);
     }
@@ -23,6 +24,15 @@ export const todoController = {
     try {
       const id = req.params.id;
       const body = req.body;
+      console.log({ body })
+      // Object.keys(body).forEach(item => console.log(item))
+      console.log("end of body")
+      // console.log(`Body: ${body}\n\n`)
+
+      const title = body.title;
+      console.log(`Id: ${id} Title: ${title}\n\n`)
+
+      // const body = title;
       const todoIndex = todoList.findIndex((todo) => todo.id === id);
 
       if (todoIndex < 0) {
@@ -91,7 +101,7 @@ export const todoController = {
         });
       }
       res.render("pages/edit", {
-        title: "Update page",
+        title: "Update 404 page",
         todo,
       });
     } catch (error) {
