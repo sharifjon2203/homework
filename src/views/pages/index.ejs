@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <%- include('../partials/head'); %>
+</head>
+
+<body>
+
+  <header class="container">
+    <%- include('../partials/header'); %>
+  </header>
+
+  <main class="conatainer   py-5">
+    <div class=" d-flex justify-content-center ">
+      <form class="d-flex justify-content-center   form w-75" action="/todo" method="post">
+
+        <div class="d-flex gap-2  w-75 p-3">
+
+          <input type="text" class="form-control" id="inputTodo" placeholder="Add new book" aria-describedby="todoHelp"
+            name="title">
+
+          <button type="submit" class="btn btn-primary">Add</button>
+        </div>
+
+      </form>
+
+    </div>
+
+
+    <div class="conatainer  d-flex justify-content-center">
+      <div class="row">
+        <div class="col-12 ">
+
+
+
+          <h2>Books - <span id="todo_count">
+              <%= todoList.length %>
+            </span></h2>
+          <div class="list-group">
+            <ul id="taskList" class="list-group list-group-flush " style="width: 40rem; margin: 0 auto;">
+
+              <%if ( typeof todoList !="undefined" ? todoList : [] ) { %>
+                <% todoList.forEach(todo=> { %>
+                  <li class="bg-light rounded py-1 pt-2 my-2 list-group-item d-flex justify-content-between fs-4">
+                    <p class="d-inline fw-light">
+                      <%= todo.title %>
+                    </p>
+                    <div>
+                      <button type="button" class="btn btn-primary edit-btn" id="edit_<%= todo.id %>">
+                        edit
+                      </button>
+                      <!-- <button type="button" class="btn btn-success done-btn" id="done_<%= todo.id %>">
+                        done
+                      </button> -->
+                      <button type="button" class="btn btn-danger del-btn" id="del_<%= todo.id %>">
+                        delete
+                      </button>
+                    </div>
+                  </li>
+                  <% }) %>
+                    <% } else { %>
+                      <p>Empty</p>
+                      <% } %>
+
+            </ul>
+          </div>
+
+
+
+
+        </div>
+      </div>
+    </div>
+
+    <!-- container  -->
+
+  </main>
+
+  <footer class="fixed-bottom">
+    <%- include('../partials/footer'); %>
+  </footer>
+
+
+  <!-- <script src="/js/edit.js"></script>
+  <script src="/js/done.js"></script>
+  <script src="/js/del.js"></script> -->
+
+  <script>
+
+    let taskList = document.querySelector("#taskList");
+
+    let taskDelete = (event) => {
+      let button = event.target.closest("button");
+      if (!button) {
+        console.log("Returned")
+        return;
+      }
+
+      let buttonId = button.id;
+      let id = buttonId.split("_")[1];
+
+      if (buttonId.startsWith("del_")) {
+
+        fetch(`http://localhost:4000/todo/${id}`, { method: "DELETE" })
+          .then((data) => {
+            if (!data.ok) {
+              alert("not found");
+              return;
+            }
+
+            // alert("Deleted: ", id);
+            window.location = "http://localhost:4000";
+          })
+          .catch((e) => {
+            alert(e.message);
+          });
+
+      } else if (buttonId.startsWith("done_")) {
+        fetch(`http://localhost:4000/todo/done/${id}`, { method: "GET" })
+          .then((data) => {
+            if (!data.ok) {
+              alert("not found");
+              return;
+            }
+
+            // alert("Done");
+            window.location = "http://localhost:4000";
+          })
+          .catch((e) => {
+            alert(e.message);
+          });
+      } else if (buttonId.startsWith("edit_")) {
+        window.location = `http://localhost:4000/todo/${id}`;
+      }
+
+    }
+
+    document.addEventListener("DOMContentLoaded", () => taskList.addEventListener("click", taskDelete))
+
+
+    // taskList.addEventListener("click", taskDelete)
+
+
+
+  </script>
+
+</body>
+
+</html>
