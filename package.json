@@ -4,8 +4,8 @@
   "description": "",
   "main": "src/server.js",
   "scripts": {
-    "start": "node --env-file=.env src/server.js",
-    "start:dev": "node  --watch --env-file=.env src/server.js"
+    "start": "node  src/server.js",
+    "start:dev": "node  --watch  src/server.js"
   },
   "keywords": [],
   "type": "module",
